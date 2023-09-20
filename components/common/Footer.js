@@ -104,9 +104,7 @@ const Footer = () => {
               <span>© 2023 THE KINETECHS DIGITAL. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>KINETECHS DIGITAL COMPANY</span>
-              <span> &nbsp; | &nbsp; </span>
-              <span>TERMS & CONDITIONS</span>
+              <span>KINETECHS DIGITAL COMPANY | TERMS & CONDITIONS</span>
             </div>
           </div>
         </div>

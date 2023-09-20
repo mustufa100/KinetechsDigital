@@ -384,4 +384,19 @@ footer {
       flex-direction: column;
     }
   }
+  .legal.connect {
+    display: flex;
+    flex-direction: column; /* For smaller screens, stack the content vertically */
+    align-items: center; /* Center align content horizontally */
+    text-align: center; /* Center align text within each span */
+
+    .text,
+    .connect {
+      margin: 10px 0; /* Add spacing between the two spans */
+    }
+  }
+
+  .legal.connect .connect span {
+    display: inline; /* Ensure each span stays on the same line */
+  }
 }

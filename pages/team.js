@@ -6,7 +6,7 @@ const team = () => {
   return (
     <>
       <Head>
-        <title>Team - PixelTEK</title>
+        <title>Team - Kinetechs Digital</title>
       </Head>
       <Team />
     </>

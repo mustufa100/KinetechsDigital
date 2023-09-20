@@ -1,4 +1,5 @@
 import { Title, TitleSm } from "@/components/common/Title"
+import Link from "next/link"
 import React from "react"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
@@ -23,41 +24,62 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>+92-333-019-5702</h3>
+                  <h3>+92-333-300-8450</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
                   <h3>Karachi</h3>
-                  <span>Block D, North Nazimabad, Karachi, Pakistan</span>
+                  <span></span>
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>pixelteksoftwares@gmail.com</h3>
+                  <h3>kinetechsdigital@gmail.com</h3>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>pixelteksoftwares@gmail.com</h3>
+                  <h3>kinetechsdigital@gmail.com</h3>
                   <span>Career at PixelTEK</span>
                 </div>
               </div>
               <ul>
+
+                <Link href="">
                 <li className='icon'>
                   <BsTwitter size={25} />
                 </li>
+                </Link>
+
+
+                <Link href="">
                 <li className='icon'>
                   <TbBrandUpwork size={25} />
                 </li>
+                </Link>
+
+
+                <Link href="">
                 <li className='icon'>
                   <AiFillInstagram size={25} />
                 </li>
+                </Link>
+
+
+                <Link href="">
                 <li className='icon'>
                   <AiFillLinkedin size={25} />
                 </li>
+                </Link>
+
+
+                <Link href="whatsapp://send?phone=+923333008450">
                 <li className='icon'>
                   <TbBrandWhatsapp size={25} />
                 </li>
+                </Link>
+
+
               </ul>
             </div>
             <div className='right w-70'>

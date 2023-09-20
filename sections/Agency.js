@@ -9,16 +9,16 @@ const Agency = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='ABOUT PixelTEK' /> <br />
+            <TitleSm title='ABOUT Kinetecks Digital' /> <br />
             <br />
-            <Title title='Your Vision, Our Code.' className='title-bg' />
+            <Title title='Unleash Possibilities with Kinetechs Digital Your Bespoke Software Partner' className='title-bg' />
           </div>
 
           <div className='content flex1'>
             <div className='left w-60 py'>
-              <TitleSm title='Turning your business ideas into smart digital products since 2021' />
-              <p className='desc-p'>Founded by a team of seasoned professionals, PixelTEK was born out of a shared vision to make technology accessible and impactful. Over the years, we've grown into a dynamic and agile software development company known for our creativity and technical expertise.</p>
-              <p className='desc-p'>What sets us apart is our client-centric approach. We believe in collaboration, communication, and a deep understanding of your goals. Our team works tirelessly to craft solutions that not only meet your needs but also exceed your expectations.</p>
+              <TitleSm title='KINETECHS DIGITAL' />
+              <p className='desc-p'>Welcome to Kinetechs Digital, where software development becomes an art form.At Kinetechs Digital, we fuel startups and enterprises with groundbreaking IT services. Our team of software development experts is renowned for delivering unparalleled IT consultation that optimizes your operations and propels your revenues to new heights.</p>
+              <p className='desc-p'>Beyond software, we're your comprehensive digital hub. From crafting unique logos and captivating website designs to providing scalable hosting solutions and assessing your existing code, we cater to all your needs. Our innovation extends to mobile app development, bringing your ideas to life.</p>
 
               <div className='grid-3'>
                 <div className='box'>
@@ -36,18 +36,18 @@ const Agency = () => {
               </div>
             </div>
             <div className='right w-40 ml'>
-              <img src='/images/s1.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/kinetechslogo.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
           </div>
 
           <div className='content flex'>
             <div className='left w-40 py'>
-              <img src='/images/s4.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/about2.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 ml'>
-              <TitleSm title='Our mission' />
+              <TitleSm title='Kinetechs Mission' />
               <br />
-              <p className='misson-p'>At PixelTEK, we are passionate about technology and committed to delivering innovative software solutions. With a mission to simplify complexities and drive digital transformation, we've been serving businesses and individuals since 2022.</p>
+              <p className='misson-p'> Our mission is to revolutionize the development process, making it personal, seamless, and inspiring. We align with your vision, challenge conventions, and deliver innovative software solutions that redefine limits.</p>
             </div>
           </div>
         </div>

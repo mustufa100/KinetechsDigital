@@ -10,7 +10,7 @@ const Expertise = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='OUR EXPERTISE' />
-            <p>Our team comprises talented developers, designers, and strategists with a wealth of experience in diverse industries.</p>
+            <p>Our expertise lies in understanding your business's unique needs and crafting tailor-made solutions. From intuitive software development that augments efficiency to strategic IT consultation that aligns with your goals, we're dedicated to driving transformation.</p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (

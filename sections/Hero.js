@@ -12,8 +12,9 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='TEK' caption='Pixel' className='logobg' />
-          <h1 className='hero-title'>Where Innovation Meets Execution.</h1>
+          {/* <TitleLogo title='TEK' caption='Pixel' className='logobg' /> */}
+          <p className='hero-title'>Embrace Digital Transformation,</p>
+          <p className='hero-title'>Seize Global Opportunities!</p>
 
           {/* <div className='sub-heading'>
             <TitleSm title='WEBSITES' /> <span>.</span>
@@ -25,8 +26,8 @@ const Hero = () => {
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='PixelTEK SOFTWARES' />
-            <p>Welcome to PixelTEK, where innovation meets excellence in software development. We are a leading software company dedicated to providing cutting-edge technology solutions to empower businesses and individuals alike.</p>
+            <Title title='Kinetechs Digital' />
+            <p>Elevate your presence and prowess with our trusted software house. We offer a full spectrum of cutting-edge IT services tailored to empower your journey in the Tech-Savvy World. Let us be your catalyst for success!</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (

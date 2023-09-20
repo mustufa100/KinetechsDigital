@@ -3,6 +3,9 @@ import { TitleLogo } from "./Title"
 import { BsTwitter } from "react-icons/bs"
 import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { TbBrandWhatsapp,TbBrandUpwork } from "react-icons/tb";
+import Image from "next/image"
+import image1 from "../../assets/images/logo-white-removebg-preview.png"
+
 const Footer = () => {
   return (
     <>
@@ -10,27 +13,31 @@ const Footer = () => {
         <div className='container'>
           <div className='grid-4'>
             <div className='logo'>
-              <TitleLogo title='TEK' caption='Pixel' className='logobg' />
+            <Link href='/'>
+              {/* <TitleLogo title='TEK' caption='Pixel' className='logomin' /> */}
+              <Image src={image1} alt="Logo" width={200} height={70}/>
+            </Link>
+
               <br />
               <span>
                 Reach Us <br /> Monday – Friday from 9 am to 6 pm
               </span>
               <br />
               <br />
-              <h3>+92-333-019-5702</h3>
+              <h3>+92-333-300-8450</h3>
               <br />
-              <button className='button-primary'>Join Us</button>
+              <Link href="whatsapp://send?phone=+923333008450" className='button-primary'>Contact</Link>
             </div>
             <ul>
-              <h3>PixelTEK</h3>
+              <h3>KINETECHS DIGITAL</h3>
               <li>
-                <Link href='/'>About PixelTEK</Link>
+                <Link href='/'>About</Link>
               </li>
               <li>
-                <Link href='/'>PixelTEK Team</Link>
+                <Link href='/'>Team</Link>
               </li>
               <li>
-                <Link href='/'>PixelTEK Projects</Link>
+                <Link href='/'>Showcase</Link>
               </li>
               <li>
                 <Link href='/'>Blog</Link>
@@ -65,27 +72,27 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='https://twitter.com/PixellTek'>
+                  <Link href=''>
                     <BsTwitter size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='https://www.upwork.com/agencies/1700891203159498752/'>
+                  <Link href=''>
                     <TbBrandUpwork size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='https://www.instagram.com/pixelteksoftwares/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fonetap%2F%3Fnext%3D%252F%26__coig_login%3D1'>
+                  <Link href=''>
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='https://www.linkedin.com/company/pixeltek-softwares/about/?viewAsMember=true'>
+                  <Link href=''>
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='whatsapp://send?phone=+923330195702'>
+                  <Link href='whatsapp://send?phone=+923333008450'>
                     <TbBrandWhatsapp size={25} />
                   </Link>
                 </li>
@@ -94,10 +101,10 @@ const Footer = () => {
           </div>
           <div className='legal connect py'>
             <div className='text'>
-              <span>© 2023 THE PixelTEK Software. ALL RIGHTS RESERVED.</span>
+              <span>© 2023 THE KINETECHS DIGITAL. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>PixelTEK Software COMPANY</span>
+              <span>KINETECHS DIGITAL COMPANY</span>
               <span> &nbsp; | &nbsp; </span>
               <span>TERMS & CONDITIONS</span>
             </div>

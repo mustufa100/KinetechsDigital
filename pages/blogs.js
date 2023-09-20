@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <>
       <Head>
-        <title>Blog - PixelTEK</title>
+        <title>Blog - Kinetechs Digital</title>
       </Head>
       <Blog />
     </>

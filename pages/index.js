@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>PixelTEK Softwares</title>
+        <title>Kinetechs Digital</title>
       </Head>
       <Hero />
     </>

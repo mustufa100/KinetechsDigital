@@ -21,16 +21,17 @@ export const home = [
     title: "Customer satisfaction is our top priority",
   },
 ]
+
 export const expertise = [
   {
     id: 1,
-    title: "Web Design & Development",
+    title: "Website Development",
     cover: "../images/e1.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
     id: 2,
-    title: "DevOps",
+    title: "Digital Marketing",
     cover: "../images/e2.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
@@ -45,6 +46,12 @@ export const expertise = [
     title: "IT Resource Outsourcing",
     cover: "../images/e4.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+  },
+  {
+    id: 5,
+    title: "Mobile App Development",
+    cover: "../images/e1.jpg",
+    desc: [{ text: "App design" }, { text: "App development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }],
   },
 ]
 export const testimonial = [
@@ -80,38 +87,38 @@ export const testimonial = [
 export const showcase = [
   {
     id: 1,
-    title: "Neon Lights",
-    cover: "../images/s1.jpg",
-    catgeory: "DIGITAL MARKETING",
+    title: "FitClub",
+    cover: "../images/portfolio1.jpg",
+    catgeory: "WEBSITES",
   },
   {
     id: 2,
-    title: "Futuristic Furniture",
+    title: "Client Portfolio",
     catgeory: "WEBSITES",
-    cover: "../images/s2.jpg",
+    cover: "../images/portfolio2.jpg",
   },
   {
     id: 3,
-    title: "Smart Living",
-    cover: "../images/s3.jpg",
+    title: "Rent A Car",
+    cover: "../images/portfolio3.jpg",
     catgeory: "WEBSITES",
   },
   {
     id: 4,
-    title: "Light Painting",
-    cover: "../images/s4.jpg",
-    catgeory: "BRANDING	",
+    title: "Construction Company",
+    cover: "../images/portfolio4.jpg",
+    catgeory: "WEBSITES	",
   },
   {
     id: 5,
-    title: "Ideabox",
-    cover: "../images/s5.jpg",
-    catgeory: "BRANDING	",
+    title: "Grocery Store",
+    cover: "../images/portfolio5.jpg",
+    catgeory: "WEBSITES	",
   },
   {
     id: 6,
-    title: "VR Experience",
-    cover: "../images/s6.jpg",
+    title: "Education",
+    cover: "../images/portfolio6.jpg",
     catgeory: "WEBSITES	",
   },
 ]

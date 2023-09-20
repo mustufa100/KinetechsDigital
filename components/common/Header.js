@@ -4,6 +4,8 @@ import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
+import Image from "next/image"
+import image1 from "../../assets/images/logo-white-removebg-preview.png"
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")
@@ -18,9 +20,12 @@ const Header = () => {
       <header>
         <div className='container'>
           <div className='logo'>
+
             <Link href='/'>
-              <TitleLogo title='TEK' caption='Pixel' className='logomin' />
+              {/* <TitleLogo title='TEK' caption='Pixel' className='logomin' /> */}
+              <Image src={image1} alt="Logo" width={200} height={70}/>
             </Link>
+
           </div>
           <nav className={open ? "openMenu" : "closeMenu"} onClick={() => setOpen(null)}>
             <Link href='/' className={activeLink == "/" ? "activeLink" : "none"}>
@@ -29,14 +34,14 @@ const Header = () => {
             <Link href='/agency' className={activeLink == "/agency" ? "activeLink" : "none"}>
               About
             </Link>
-            <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
+            {/* <Link href='/team' className={activeLink == "/team" ? "activeLink" : "none"}>
               Team
-            </Link>
+            </Link> */}
             <Link href='/services' className={activeLink == "/services" ? "activeLink" : "none"}>
               Services
             </Link>
             <Link href='/showcase' className={activeLink == "/showcase" ? "activeLink" : "none"}>
-              Projects
+              Showcase
             </Link>
             <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
               Blog

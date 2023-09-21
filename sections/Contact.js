@@ -55,7 +55,7 @@ const Contact = () => {
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
                   <h3>kinetechsdigital@gmail.com</h3>
-                  <span>Career at KINETECHS DIGITAL</span>
+                  <span>Career at KINETECHS DIGITAl</span>
                 </div>
               </div>
               <ul>

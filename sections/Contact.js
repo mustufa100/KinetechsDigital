@@ -55,7 +55,7 @@ const Contact = () => {
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
                   <h3>kinetechsdigital@gmail.com</h3>
-                  <span>Career at PixelTEK</span>
+                  <span>Career at KINETECHS DIGITAL</span>
                 </div>
               </div>
               <ul>
@@ -118,7 +118,7 @@ const Contact = () => {
                     <input type='text' name="user_budget"/>
                   </div>
                   <div className='inputs'>
-                    <span>timeframe</span>
+                    <span>time frame</span>
                     <input type='text' name="user_timeframe"/>
                   </div>
                 </div>

@@ -1,23 +1,25 @@
-import { AiOutlineCalendar } from "react-icons/ai"
-import { TfiRulerPencil } from "react-icons/tfi"
-import { VscFileSubmodule } from "react-icons/vsc"
+import { FaMagnifyingGlassChart } from "react-icons/fa6";
+import { FaHighlighter } from "react-icons/fa"
 import { BiUser } from "react-icons/bi"
+import { BsGraphUpArrow } from "react-icons/bs";
+import { FaTasks } from "react-icons/fa";
+import { MdAutoFixHigh , MdCheckCircle } from "react-icons/md";
 
 export const home = [
   {
-    icon: <AiOutlineCalendar size={25} />,
+    icon: <BsGraphUpArrow size={25} />,
     title: "1+ years of market experience",
   },
   {
-    icon: <TfiRulerPencil size={25} />,
+    icon: <MdAutoFixHigh size={25} />,
     title: "Unique technologies & modern approach ",
   },
   {
-    icon: <VscFileSubmodule size={25} />,
+    icon: <FaTasks size={25} />,
     title: "50+ Successful cases in portfolio",
   },
   {
-    icon: <BiUser size={25} />,
+    icon: <MdCheckCircle size={25} />,
     title: "Customer satisfaction is our top priority",
   },
 ]
@@ -52,6 +54,24 @@ export const expertise = [
     title: "Mobile App Development",
     cover: "../images/appdev.jpg",
     desc: [{ text: "App design" }, { text: "App development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }],
+  },
+  {
+    id: 6,
+    title: "Maintenance and Support",
+    cover: "../images/maintain.jpg",
+    desc: [{ text: "Issue Resolution" }, { text: "Software Updates" }, { text: "Security Monitoring" }, { text: "Data Backup & Recovery" }],
+  },
+  {
+    id: 7,
+    title: "AI and Machine Learning",
+    cover: "../images/aiml.jpg",
+    desc: [{ text: "Data Collection & Preparation" }, { text: "Feature Engineering" }, { text: "Model Deployment" }, { text: "Scalability" }],
+  },
+  {
+    id: 8,
+    title: "Consulting and Advisory",
+    cover: "../images/consultancy.jpg",
+    desc: [{ text: "Strategic Planning" }, { text: "Market Research" }, { text: "Business Process Optimization" }, { text: "Risk Assessment" }],
   },
 ]
 export const testimonial = [
@@ -173,7 +193,7 @@ export const blogdata = [
   {
     id: 4,
     title: "The Future Of AI And Machine Learning In Software Development",
-    cover: "../images/b4.jpg",
+    cover: "../images/AI.jpg",
     catgeory: "AI",
     date: "OCTOBER 8, 2023",
   },

@@ -10,7 +10,7 @@ const Services = () => {
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='SERVICES' /> <br />
-            <p className='desc-p'>As a pioneer in Custom Application Development, we specialize in creating SaaS products tailored precisely to businesses like yours. Our team of seasoned custom application development experts brings years of experience, ensuring excellence in bespoke software development services.But we don't stop there. Kinetechs Digital is your partner for complete digital transformation. Our suite of services includes potent digital marketing strategies to amplify your online presence and effectively engage your target audience.</p>
+            {/* <p className='desc-p'>As a pioneer in Custom Application Development, we specialize in creating SaaS products tailored precisely to businesses like yours. Our team of seasoned custom application development experts brings years of experience, ensuring excellence in bespoke software development services.</p> */}
             <br />
             <Title title='Unique technologies & modern approach' className='title-bg' />
           </div>

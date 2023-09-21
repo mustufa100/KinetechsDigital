@@ -1,5 +1,5 @@
 import React from "react"
-import { Title, TitleLogo } from "./common/Title"
+import { TitleLogo } from "./common/Title"
 import Link from "next/link"
 
 const Banner = () => {
@@ -8,7 +8,6 @@ const Banner = () => {
       <section className='banner'>
         <div className='container'>
           <div>
-            <Title title='We are looking forward to start a new project' /> <br />
             <TitleLogo title='Ready to Take the Lead in Your Industry?' />
           </div>
           <div className="links">

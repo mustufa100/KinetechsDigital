@@ -1,6 +1,7 @@
 import { Contact } from "@/sections"
 import Head from "next/head"
 import React from "react"
+import TransitionEffect from "@/components/TransitionEffect"
 
 const contact = () => {
   return (
@@ -8,6 +9,7 @@ const contact = () => {
       <Head>
         <title>Contact - Kinetechs Digital</title>
       </Head>
+      <TransitionEffect/>
       <Contact />
     </>
   )

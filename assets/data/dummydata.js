@@ -32,7 +32,7 @@ export const expertise = [
   {
     id: 2,
     title: "Digital Marketing",
-    cover: "../images/e2.jpg",
+    cover: "../images/dm.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
   },
   {
@@ -44,43 +44,43 @@ export const expertise = [
   {
     id: 4,
     title: "IT Resource Outsourcing",
-    cover: "../images/e4.jpg",
+    cover: "../images/ITresource.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
   {
     id: 5,
     title: "Mobile App Development",
-    cover: "../images/e1.jpg",
+    cover: "../images/appdev.jpg",
     desc: [{ text: "App design" }, { text: "App development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }],
   },
 ]
 export const testimonial = [
   {
     id: 1,
-    name: "Alexander Black",
-    cover: "../images/e1.jpg",
-    post: "PixelTEK Softwares - CEO",
+    name: "MARIUM SIDDIQUI",
+    cover: "../images/e3.jpg",
+    post: "KINETECHS DIGITAL - CEO",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 2,
-    name: "Diana Green",
+    name: "MARIUM SIDDIQUI",
     cover: "../images/e2.jpg",
-    post: "PixelTEK Softwares - marketing manager",
+    post: "KINETECHS DIGITAL - marketing manager",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
   {
     id: 3,
-    name: "Alexander Black",
-    cover: "../images/e3.jpg",
-    post: "PixelTEK Softwares - CEO",
+    name: "SYED MUSTUFA",
+    cover: "../images/e1.jpg",
+    post: "KINETECHS DIGITAL - SENIOR WEB DEVELOPER",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 4,
-    name: "Diana Green",
+    name: "SYED MUSTUFA",
     cover: "../images/e4.jpg",
-    post: "PixelTEK Softwares - marketing manager",
+    post: "KINETECHS DIGITAL - LEAD SOFTWARE DEVELOPER",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
 ]

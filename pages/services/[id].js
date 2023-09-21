@@ -4,6 +4,7 @@ import { Title, TitleSm } from "@/components/common/Title"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import React from "react"
+import TransitionEffect from "@/components/TransitionEffect"
 
 const DoublePost = () => {
   const router = useRouter()
@@ -35,6 +36,8 @@ const DoublePost = () => {
         <Head>
           <title>{post.title}</title>
         </Head>
+        <TransitionEffect/>
+
         <section className='post-details bg-top'>
           <div className='container'>
             <div className='heading-title'>
@@ -74,6 +77,8 @@ const DoublePost = () => {
         <Head>
           <title>{post.title}</title>
         </Head>
+        <TransitionEffect/>
+
         <section className='post-details bg-top'>
           <div className='container'>
             <div className='heading-title'>
@@ -128,6 +133,8 @@ const DoublePost = () => {
           <Head>
             <title>{post.title}</title>
           </Head>
+          <TransitionEffect/>
+
           <section className='post-details bg-top'>
             <div className='container'>
               <div className='heading-title'>
@@ -167,6 +174,8 @@ const DoublePost = () => {
           <Head>
             <title>{post.title}</title>
           </Head>
+          <TransitionEffect/>
+
           <section className='post-details bg-top'>
             <div className='container'>
               <div className='heading-title'>
@@ -206,6 +215,8 @@ const DoublePost = () => {
               <Head>
                 <title>{post.title}</title>
               </Head>
+              <TransitionEffect/>
+
               <section className='post-details bg-top'>
                 <div className='container'>
                   <div className='heading-title'>
@@ -245,6 +256,8 @@ const DoublePost = () => {
         <Head>
           <title>{post.title}</title>
         </Head>
+        <TransitionEffect/>
+
         <section className='post-details bg-top'>
           <div className='container'>
             <div className='heading-title'>

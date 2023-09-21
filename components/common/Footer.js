@@ -31,41 +31,42 @@ const Footer = () => {
             <ul>
               <h3>KINETECHS DIGITAL</h3>
               <li>
-                <Link href='/'>About</Link>
+                <Link href='/agency'>About</Link>
               </li>
               <li>
-                <Link href='/'>Team</Link>
+                <Link href='/services'>Services</Link>
               </li>
               <li>
-                <Link href='/'>Showcase</Link>
+                <Link href='/showcase'>Showcase</Link>
               </li>
               <li>
-                <Link href='/'>Blog</Link>
+                <Link href='/blogs'>Blog</Link>
               </li>
               {/* <li>
                 <Link href='/'>Demo design system</Link>
               </li> */}
               <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/'>Web Design & Development</Link>
+                <Link href='/services/1'>Web Design & Development</Link>
               </li>
               <li>
-                <Link href='/'>Mobile App Development</Link>
+                <Link href='/services/2'>Digital Marketing</Link>
               </li>
               <li>
-                <Link href='/'>Ecommerce Solutions</Link>
+                <Link href='/services/3'>Ecommerce Solutions</Link>
               </li>
               <li>
-                <Link href='/'>DevOps</Link>
+                <Link href='/services/4'>IT Resource Outsourcing</Link>
               </li>
               <li>
-                <Link href='/'>IT Resource Outsourcing</Link>
+                <Link href='/services/5'>Mobile App Development</Link>
               </li>
+             
             </ul>
             
             <ul>

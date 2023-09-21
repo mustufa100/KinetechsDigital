@@ -4,6 +4,7 @@ import { Title, TitleSm } from "@/components/common/Title"
 import Head from "next/head"
 import { useRouter } from "next/router"
 import React from "react"
+import TransitionEffect from "@/components/TransitionEffect"
 
 const TripplePost = () => {
   const router = useRouter()
@@ -34,6 +35,7 @@ if (id === "1") {
       <Head>
         <title>{post.title}</title>
       </Head>
+      <TransitionEffect/>
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
@@ -70,6 +72,8 @@ if (id === "1") {
       <Head>
         <title>{post.title}</title>
       </Head>
+      <TransitionEffect/>
+
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
@@ -117,6 +121,8 @@ if (id === "1") {
           <Head>
         <title>{post.title}</title>
       </Head>
+      <TransitionEffect/>
+
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
@@ -162,6 +168,8 @@ if (id === "1") {
         <Head>
         <title>{post.title}</title>
       </Head>
+      <TransitionEffect/>
+
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
@@ -207,6 +215,8 @@ if (id === "1") {
             <Head>
         <title>{post.title}</title>
       </Head>
+      <TransitionEffect/>
+
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
@@ -252,6 +262,8 @@ else if (id === "6") {
       <Head>
   <title>{post.title}</title>
 </Head>
+<TransitionEffect/>
+
 <section className='post-details bg-top'>
   <div className='container'>
     <div className='heading-title'>
@@ -297,6 +309,8 @@ else if (id === "6") {
       <Head>
         <title>{post.title}</title>
       </Head>
+      <TransitionEffect/>
+
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>

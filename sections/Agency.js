@@ -2,8 +2,42 @@ import Banner from "@/components/Banner"
 import Brand from "@/components/Brand"
 import Testimonial from "@/components/Testimonial"
 import { Title, TitleSm } from "@/components/common/Title"
+import { spring, useInView, useMotionValue, useSpring } from 'framer-motion';
+import React, { useEffect, useRef } from 'react';
+
+
 
 const Agency = () => {
+
+  const AnimatedNumbers = ({value})=>{
+    const ref =  useRef(null);
+    
+    const motionValue = useMotionValue(0);
+    const springValue = useSpring(motionValue,{duration:3000})
+    const isInView = useInView(ref,{once:true});
+    
+    
+    useEffect(() => {
+      if(isInView)
+      motionValue.set(value);
+    }, [isInView,value,motionValue])
+    
+    useEffect(() => {
+     
+      springValue.on("change",(latest)=>{
+        if(ref.current && latest.toFixed(0) <= value){
+          ref.current.textContent = latest.toFixed(0);
+        }
+      })
+    
+    
+    
+    }, [springValue,value])
+    
+      return <span ref={ref}></span>
+    }
+    
+
   return (
     <>
       <section className='agency bg-top'>
@@ -22,15 +56,15 @@ const Agency = () => {
 
               <div className='grid-3'>
                 <div className='box'>
-                  <h1 className='orange'>1+</h1>
+                  <h1 className='orange'><AnimatedNumbers value={4}/>+</h1>
                   <h3>Years Of Experience</h3>
                 </div>
                 <div className='box'>
-                  <h1 className='orange'>50+</h1>
+                  <h1 className='orange'><AnimatedNumbers value={50}/>+</h1>
                   <h3>Satisfied Clients</h3>
                 </div>
                 <div className='box'>
-                  <h1 className='orange'>40+</h1>
+                  <h1 className='orange'><AnimatedNumbers value={40}/>+</h1>
                   <h3>Projects Completed</h3>
                 </div>
               </div>
@@ -54,8 +88,8 @@ const Agency = () => {
       </section>
 
       <Brand />
-      <Testimonial />
-      {/* <Banner /> */}
+      {/* <Testimonial /> */}
+      <Banner />
       <br />
       <br />
       <br />

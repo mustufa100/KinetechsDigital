@@ -72,8 +72,8 @@
   .container {
     border-radius: 50px 0 50px 0;
     padding: $xll;
-    background: rgb(192, 90, 255);
-    background: $gradient;
+    // background: rgb(192, 90, 255);
+    background: $gradient2;
     @include flex(center, space-between, none);
   }
 }
@@ -185,7 +185,7 @@ footer {
     margin-bottom: $xl-2;
     display: block;
     &:hover {
-      color: $orange;
+      color: $gradient2;
     }
   }
   .connect {
@@ -273,7 +273,7 @@ footer {
     .box {
       margin-bottom: $xll;
       .icons {
-        color: $orange;
+        color: $gradient2;
       }
       h3 {
         padding: $xl-2 0;
@@ -319,7 +319,39 @@ footer {
     }
   }
 }
-
+.bla{
+  position: fixed;
+   top: 0px;; 
+   bottom:0px;
+    right:100%; 
+    width: 100vh; 
+    height: 100vh; 
+    z-index:30;
+    --tw-bg-opacity: 1;
+    background-color: $gradient2;
+}
+.blac{
+  position: fixed;
+   top: 0px;; 
+   bottom:0px;
+    right:100%; 
+    width: 100vh; 
+    height: 100vh; 
+    z-index:20;
+    --tw-bg-opacity: 1;
+    background-color: $white;
+}
+.black{
+  position: fixed;
+   top: 0px;; 
+   bottom:0px;
+    right:100%; 
+    width: 100vh; 
+    height: 100vh; 
+    z-index:10;
+    --tw-bg-opacity: 1;
+    background-color: $silver;
+}
 @media screen and (max-width: 800px) {
 
   .banner {

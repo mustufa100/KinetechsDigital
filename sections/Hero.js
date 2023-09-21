@@ -15,12 +15,13 @@ const Hero = () => {
           {/* <TitleLogo title='TEK' caption='Pixel' className='logobg' /> */}
           <p className='hero-title'>Embrace Digital Transformation,</p>
           <p className='hero-title'>Seize Global Opportunities!</p>
-
+   
           {/* <div className='sub-heading'>
             <TitleSm title='WEBSITES' /> <span>.</span>
             <TitleSm title='BRANDING' /> <span>.</span>
             <TitleSm title='DIGITAL MARKETING' />
           </div> */}
+
         </div>
       </section>
       <section className='hero-sec'>
@@ -32,7 +33,7 @@ const Hero = () => {
           <div className='hero-content grid-4'>
             {home.map((item, i) => (
               <div className='box' key={i}>
-                <span className='orange'>{item.icon}</span> <br />
+                <span className='gradient2'>{item.icon}</span> <br />
                 <br />
                 <h3>{item.title}</h3>
               </div>
@@ -42,7 +43,7 @@ const Hero = () => {
       </section>
       <Expertise />
       <Banner />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <ShowCase />
       <Brand />
 

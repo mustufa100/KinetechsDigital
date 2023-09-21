@@ -1,6 +1,7 @@
 import Services from "@/sections/Services"
 import Head from "next/head"
 import React from "react"
+import TransitionEffect from "@/components/TransitionEffect"
 
 const services = () => {
   return (
@@ -8,6 +9,7 @@ const services = () => {
       <Head>
         <title>Team - Kinetechs Digital</title>
       </Head>
+      <TransitionEffect/>
       <Services />
     </>
   )

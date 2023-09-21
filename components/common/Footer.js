@@ -4,7 +4,7 @@ import { BsTwitter } from "react-icons/bs"
 import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { TbBrandWhatsapp,TbBrandUpwork } from "react-icons/tb";
 import Image from "next/image"
-import image1 from "../../assets/images/logo-white-removebg-preview.png"
+import image1 from "../../public/images/kinelogo-removebg-preview.png"
 
 const Footer = () => {
   return (

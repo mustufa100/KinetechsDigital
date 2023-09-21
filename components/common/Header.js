@@ -5,7 +5,7 @@ import { useEffect, useState } from "react"
 import { RiMenu4Line } from "react-icons/ri"
 import { AiOutlineClose } from "react-icons/ai"
 import Image from "next/image"
-import image1 from "../../assets/images/logo-white-removebg-preview.png"
+import image1 from "../../public/images/kinelogo-removebg-preview.png"
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("")

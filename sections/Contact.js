@@ -109,7 +109,7 @@ const Contact = () => {
                   </div>
                   <div className='inputs'>
                     <span>Email</span>
-                    <input type='text' name="user_email"/>
+                    <input type='text' name="user_email" required/>
                   </div>
                 </div>
                 <div className='grid-2'>

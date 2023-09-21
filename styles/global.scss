@@ -8,18 +8,16 @@
   position: relative;
   &::before {
     content: "";
-    content: "";
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url("../assets/images/ba.jpg");
+    left: -40%;
+    width: 180%;
+    height: 200vh;
+    background-image: url("../assets/images/art-top-cropp.jpg");
     background-size: cover;
-    background-position: center top; /* Adjusted */
+    background-position: center;
     z-index: -1;
-    
-
+    overflow-x: hidden !important;
   }
   // .hero-title {
   //   font-size: $xl-4;
@@ -28,11 +26,12 @@
   //   margin: $xl-6 0;
   // }
   .hero-title {
-    font-size: $xl-6;
-    line-height: 50px;
-    font-weight: 600;
-    margin: $xl-1 0;
-    text-align: left;
+  font-size: $xl-6;
+  line-height: 50px;
+  font-weight: 600;
+  margin: $xl-1 0;
+  color: $orange;
+  text-align: left; /* Align text to the left by default */
   }
   .sub-heading {
     display: flex;
@@ -356,13 +355,6 @@ footer {
     background-color: $silver;
 }
 @media screen and (max-width: 800px) {
-  content:after {
-    background-size: contain; /* Adjust for smaller screens */
-    background-position: center center; /* Adjust for smaller screens */
-}
-.hero-title {
-  display: none;
-}
   .banner {
     .container {
       @include flex(center, none, column);

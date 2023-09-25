@@ -70,7 +70,7 @@ const Agency = () => {
               </div>
             </div>
             <div className='right w-40 ml'>
-              <img src='/images/kinelogo.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/kinelogo-removebg-previews.png' alt='Img' className='round' width='100%' height='100%' />
             </div>
           </div>
 

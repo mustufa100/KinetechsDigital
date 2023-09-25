@@ -150,42 +150,40 @@ const Hero = () => {
       <motion.h2>
 
       <motion.span variants={firstName} initial="initial" animate="animate" className="first">
-        <motion.span variants={letter}>D</motion.span>
+        <motion.span variants={letter}>W</motion.span>
         <motion.span variants={letter}>e</motion.span>
-        <motion.span variants={letter}>s</motion.span>
-        <motion.span variants={letter}>i</motion.span>
-        <motion.span variants={letter}>g</motion.span>
-        <motion.span variants={letter}>n</motion.span>
-        <motion.span variants={letter} className="second">F</motion.span>
-        <motion.span variants={letter}>o</motion.span>
+        <motion.span variants={letter}>l</motion.span>
         <motion.span variants={letter}>c</motion.span>
-        <motion.span variants={letter}>u</motion.span>
-        <motion.span variants={letter}>s</motion.span>
+        <motion.span variants={letter}>o</motion.span>
+        <motion.span variants={letter}>m</motion.span>
         <motion.span variants={letter}>e</motion.span>
-        <motion.span variants={letter}>d</motion.span>
+
+        <motion.span variants={letter} className="second">T</motion.span>
+        <motion.span variants={letter}>o</motion.span>
+       
+
       </motion.span>
 
 
 
       <motion.span variants={lastName} initial="initial" animate="animate" className="last">
+      <motion.span variants={letter}>K</motion.span>
+        <motion.span variants={letter}>I</motion.span>
+        <motion.span variants={letter}>N</motion.span>
+        <motion.span variants={letter}>E</motion.span>
+        <motion.span variants={letter}>T</motion.span>
+        <motion.span variants={letter}>E</motion.span>
+        <motion.span variants={letter}>C</motion.span>
+        <motion.span variants={letter}>H</motion.span>
         <motion.span variants={letter}>S</motion.span>
-        <motion.span variants={letter}>t</motion.span>
-        <motion.span variants={letter}>a</motion.span>
-        <motion.span variants={letter}>r</motion.span>
-        <motion.span variants={letter}>t</motion.span>
-        <motion.span variants={letter}>u</motion.span>
-        <motion.span variants={letter}>p,</motion.span>
-        <motion.span variants={letter} className="second">F</motion.span>
-        <motion.span variants={letter}>o</motion.span>
-        <motion.span variants={letter}>r</motion.span>
-        <motion.span variants={letter} className="second">S</motion.span>
-        <motion.span variants={letter}>t</motion.span>
-        <motion.span variants={letter}>a</motion.span>
-        <motion.span variants={letter}>r</motion.span>
-        <motion.span variants={letter}>t</motion.span>
-        <motion.span variants={letter}>u</motion.span>
-        <motion.span variants={letter}>p</motion.span>
-        <motion.span variants={letter}>s</motion.span>
+        <motion.span variants={letter} className="second">D</motion.span>
+        <motion.span variants={letter}>I</motion.span>
+        <motion.span variants={letter}>G</motion.span>
+        <motion.span variants={letter}>I</motion.span>
+        <motion.span variants={letter}>T</motion.span>
+        <motion.span variants={letter}>A</motion.span>
+        <motion.span variants={letter}>L</motion.span>
+        
 
       </motion.span>
 
@@ -193,7 +191,7 @@ const Hero = () => {
         {/* <span>Design <span className="second">Focused</span></span>
         <span>Startup, <span className="second">For</span> Startups.</span> */}
       </motion.h2>
-      <motion.p variants={fadeInUp}>When, while lovely valley teems with vapor around me and <br /> meridian sun strikes the upper impenetrable.</motion.p>
+      <motion.p variants={fadeInUp}>At Kinetechs Digital, we're your partners in harnessing the power of technology to drive your business forward. With a passion for innovation and a commitment to excellence, we offer a range of digital solutions tailored to your unique needs.</motion.p>
 
       <motion.div className="btn_group" variants={stagger}>
         <motion.a href="/dummy.pdf" target="_blank" className="btn btn_primary"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Proposal

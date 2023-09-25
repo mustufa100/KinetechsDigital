@@ -196,17 +196,19 @@ const Hero = () => {
       <motion.p variants={fadeInUp}>When, while lovely valley teems with vapor around me and <br /> meridian sun strikes the upper impenetrable.</motion.p>
 
       <motion.div className="btn_group" variants={stagger}>
-        <motion.a href="mailto:your-email@example.com" className="btn btn_primary"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Mail Us
+        <motion.a href="/dummy.pdf" target="_blank" className="btn btn_primary"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Proposal
           <IconContext.Provider value={{color:"#f97316",size:"25px"}}>
             <IoChevronForwardCircle/>
           </IconContext.Provider>
         </motion.a>
-        <motion.a href="whatsapp://send?phone=+923333008450" className="btn btn_second"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Contact
+        <motion.a href="whatsapp://send?phone=+923333008450" target="_blank" className="btn btn_second"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Contact
         <IconContext.Provider value={{color:"#f97316",size:"25px"}}>
         <IoChevronForwardCircle/>
           </IconContext.Provider>
         </motion.a>
       </motion.div>
+
+
 
       <motion.div className="review_container" variants={stagger}>
         <motion.p className="total_review"variants={star}>64+ Reviews</motion.p>

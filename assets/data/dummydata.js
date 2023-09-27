@@ -8,7 +8,7 @@ import { MdAutoFixHigh , MdCheckCircle } from "react-icons/md";
 export const home = [
   {
     icon: <BsGraphUpArrow size={25} />,
-    title: "1+ years of market experience",
+    title: "7+ years of market experience",
   },
   {
     icon: <MdAutoFixHigh size={25} />,
@@ -16,7 +16,7 @@ export const home = [
   },
   {
     icon: <FaTasks size={25} />,
-    title: "50+ Successful cases in portfolio",
+    title: "750+ Successful cases in portfolio",
   },
   {
     icon: <MdCheckCircle size={25} />,

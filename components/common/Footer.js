@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
 import { BsTwitter } from "react-icons/bs"
-import { AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { AiFillGoogleSquare, AiFillLinkedin } from "react-icons/ai"
 import { TbBrandWhatsapp,TbBrandUpwork } from "react-icons/tb";
 import Image from "next/image"
 import image1 from "../../public/images/kinelogo-removebg-preview.png"
@@ -66,7 +66,15 @@ const Footer = () => {
               <li>
                 <Link href='/services/5'>Mobile App Development</Link>
               </li>
-             
+              <li>
+                <Link href='/services/6'>Maintenance And Support</Link>
+              </li>
+              <li>
+                <Link href='/services/7'>AI And Machine Learning</Link>
+              </li>
+              <li>
+                <Link href='/services/8'>Consulting And Advisory</Link>
+              </li>
             </ul>
             
             <ul>
@@ -83,8 +91,8 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href=''>
-                    <AiFillInstagram size={25} />
+                  <Link href='mailto:kinetechsdigital@gmail.com'>
+                    <AiFillGoogleSquare size={25} />
                   </Link>
                 </li>
                 <li>

@@ -1,7 +1,7 @@
 import { Title, TitleSm } from "@/components/common/Title"
 import Link from "next/link"
 import React,{ useRef } from "react"
-import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import {  AiFillGoogleSquare, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"
 import { BsFacebook, BsTwitter } from "react-icons/bs"
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
@@ -39,7 +39,7 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>+92-333-300-8450</h3>
+                  <a href="whatsapp://send?phone=+923333008450"><h3>+92-333-300-8450</h3></a>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
@@ -49,12 +49,12 @@ const Contact = () => {
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>kinetechsdigital@gmail.com</h3>
+                  <a href="mailto:kinetechsdigital@gmail.com"><h3>kinetechsdigital@gmail.com</h3></a>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>kinetechsdigital@gmail.com</h3>
+                  <a href="mailto:kinetechsdigital@gmail.com"><h3>kinetechsdigital@gmail.com</h3></a>
                   <span>Career at KINETECHS DIGITAL</span>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const Contact = () => {
 
                 <Link href="">
                 <li className='icon'>
-                  <AiFillInstagram size={25} />
+                  <AiFillGoogleSquare size={25} />
                 </li>
                 </Link>
 

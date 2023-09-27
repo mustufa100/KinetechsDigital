@@ -195,6 +195,17 @@
   }
 }
 
+// .subscribebanner {
+//   margin-top: $xll-2;
+//   margin-bottom: $xl-6;
+//   .container {
+//     border-radius: 50px 0 50px 0;
+//     padding: $xll;
+//     // background: rgb(192, 90, 255);
+//     background: $gradient2;
+//     @include flex(center, space-between, none);
+//   }
+// }
 //testimonial
 .testimonial {
   .card {
@@ -485,6 +496,20 @@ footer {
       margin-top: 40px;
     }
   }
+  // .subscribebanner {
+  //   .container {
+  //     @include flex(center, none, column);
+  //     button {
+  //       margin-top: 50px;
+  //     }
+  //     h1 {
+  //       font-size: 30px;
+  //     }
+  //   }
+  //   .links{
+  //     margin-top: 40px;
+  //   }
+  // }
   .blog-card {
     .card {
       @include flex(none, none, column);

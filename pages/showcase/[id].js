@@ -39,9 +39,10 @@ if (id === "1") {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='Fueling fitness through a dynamic online hub for the FitClub community' /> <br />
+          <Title title={post.title} className='title-bg' /><br />
             <br />
-            <Title title={post.title} className='title-bg' />
+            <TitleSm title='Fueling fitness through a dynamic online hub for the FitClub community' /> 
+         
             <div className='img py'>
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
             </div>
@@ -49,7 +50,7 @@ if (id === "1") {
               <TitleSm title='FitClub Website' />
               <p className='desc-p'>FitClub frontend website built on the cutting-edge technology of ReactJS. Designed with your health and fitness in mind, this user-friendly platform offers a seamless experience to explore our fitness programs, track your progress, and connect with fellow fitness enthusiasts. Whether you're a seasoned athlete or just starting your fitness journey, our FitClub website is your trusted companion on the path to a healthier you. Explore our innovative features, personalized workout plans, and a supportive community that motivates you every step of the way. Join us in embracing a healthier lifestyle with our FitClub website, where your fitness goals become a reality.</p>
              
-              <a href="https://fitclub-3ev.pages.dev/" target="_blank">Explore FitClub</a>
+              <a href="https://fitclub-3ev.pages.dev/" className='button-primary' target="_blank">Explore FitClub</a>
 
               {/* Other common content */}
             </div>
@@ -77,9 +78,9 @@ if (id === "1") {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='Each project is a chapter in our success story, and our portfolio is the book that defines our journey' /> <br />
+          <Title title={post.title} className='title-bg' /><br />
             <br />
-            <Title title={post.title} className='title-bg' />
+            <TitleSm title='Each project is a chapter in our success story, and our portfolio is the book that defines our journey' />
             <div className='img py'>
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
             </div>
@@ -93,7 +94,7 @@ if (id === "1") {
             
               {/* Other common content */}
 
-              <a href="https://glowing-souffle-b2068f.netlify.app/" target="_blank">Explore Client Portfolio</a>
+              <a href="https://glowing-souffle-b2068f.netlify.app/" className='button-primary' target="_blank">Explore Client Portfolio</a>
 
             </div>
           </div>
@@ -126,9 +127,10 @@ if (id === "1") {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='Unlock the road to adventure with our wheels of convenience' /> <br />
+          <Title title={post.title} className='title-bg' /><br />
             <br />
-            <Title title={post.title} className='title-bg' />
+            <TitleSm title='Unlock the road to adventure with our wheels of convenience' />
+        
             <div className='img py'>
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
             </div>
@@ -142,7 +144,7 @@ if (id === "1") {
             
               {/* Other common content */}
 
-              <a href="https://rentacar-16o.pages.dev/" target="_blank">Explore Rent A Car</a>
+              <a href="https://rentacar-16o.pages.dev/" className='button-primary' target="_blank">Explore Rent A Car</a>
 
             </div>
           </div>
@@ -173,9 +175,10 @@ if (id === "1") {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='Building Dreams, One Brick at a Time' /> <br />
+          <Title title={post.title} className='title-bg' /><br />
             <br />
-            <Title title={post.title} className='title-bg' />
+            <TitleSm title='Building Dreams, One Brick at a Time' /> 
+           
             <div className='img py'>
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
             </div>
@@ -189,7 +192,7 @@ if (id === "1") {
             
               {/* Other common content */}
 
-              <a href="https://construction-710e2.web.app/" target="_blank">Explore Construction Company</a>
+              <a href="https://construction-710e2.web.app/" className='button-primary' target="_blank">Explore Construction Company</a>
 
             </div>
           </div>
@@ -220,9 +223,10 @@ if (id === "1") {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='Bringing Freshness to Your Doorstep' /> <br />
+          <Title title={post.title} className='title-bg' /><br />
             <br />
-            <Title title={post.title} className='title-bg' />
+            <TitleSm title='Bringing Freshness to Your Doorstep' />
+            
             <div className='img py'>
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
             </div>
@@ -236,7 +240,7 @@ if (id === "1") {
             
               {/* Other common content */}
 
-              <a href="https://grocery-shop-f47b3.web.app/" target="_blank">Explore Grocery Store</a>
+              <a href="https://grocery-shop-f47b3.web.app/" className='button-primary' target="_blank">Explore Grocery Store</a>
 
             </div>
           </div>
@@ -267,9 +271,10 @@ else if (id === "6") {
 <section className='post-details bg-top'>
   <div className='container'>
     <div className='heading-title'>
-      <TitleSm title='Unlocking Knowledge, Empowering Future' /> <br />
+    <Title title={post.title} className='title-bg' /><br />
       <br />
-      <Title title={post.title} className='title-bg' />
+      <TitleSm title='Unlocking Knowledge, Empowering Future' />
+      
       <div className='img py'>
         <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
       </div>
@@ -283,7 +288,7 @@ else if (id === "6") {
       
         {/* Other common content */}
 
-        <a href="https://onlinetution-64499.web.app/" target="_blank">Explore Online Education</a>
+        <a href="https://onlinetution-64499.web.app/" className='button-primary' target="_blank">Explore Education</a>
 
       </div>
     </div>

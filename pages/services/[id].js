@@ -5,6 +5,7 @@ import Head from "next/head"
 import { useRouter } from "next/router"
 import React from "react"
 import TransitionEffect from "@/components/TransitionEffect"
+import Link from "next/link"
 
 const DoublePost = () => {
   const router = useRouter()
@@ -41,9 +42,9 @@ const DoublePost = () => {
         <section className='post-details bg-top'>
           <div className='container'>
             <div className='heading-title'>
-              <TitleSm title='In the world of web development, every line of code is a brushstroke on the canvas of the internet' /> <br />
+            <TitleSm title={post.title} className='title-bg' /><br />
               <br />
-              <Title title={post.title} className='title-bg' />
+              <Title title='In the world of web development, every line of code is a brushstroke on the canvas of the internet' />
               <div className='img py'>
                 <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
               </div>
@@ -64,6 +65,9 @@ const DoublePost = () => {
 
                 <p className='desc-p'>As a dedicated web development team, we take pride in crafting innovative and impactful digital solutions tailored to our clients' unique needs. With a team of highly skilled developers, designers, and digital strategists, we deliver web experiences that not only meet but exceed expectations. Our expertise spans across a wide spectrum of technologies and platforms, allowing us to create websites and web applications that are not only visually stunning but also highly functional and user-friendly. We understand that the digital landscape is ever-evolving, and we stay at the forefront of industry trends to ensure that our clients stay ahead of the competition. Whether you're a startup looking to establish an online presence or a well-established business seeking to revamp your digital strategy, our web development agency is here to turn your vision into a reality.</p>
                 {/* Other common content */}
+                <div className="links">
+                  <Link href="/contact" className='button-primary'>Join Us</Link>
+                </div>              
               </div>
             </div>
           </div>
@@ -82,10 +86,11 @@ const DoublePost = () => {
         <section className='post-details bg-top'>
           <div className='container'>
             <div className='heading-title'>
-              <TitleSm title='START WITH A RIPPLE' /> <br />
-              <TitleSm title='END WITH A WAVE' /> <br />
+            <TitleSm title={post.title} className='title-bg' /><br />
               <br />
-              <Title title={post.title} className='title-bg' />
+              <Title title='START WITH A RIPPLE' /> <br />
+              <Title title='END WITH A WAVE' /> 
+
               <div className='img py'>
                 <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
               </div>
@@ -119,6 +124,10 @@ const DoublePost = () => {
                 <TitleSm title='GIVE US THE DETAILS. WE’LL GIVE YOU A BRAND.' />
                 <p className="desc-p">Our recipe for success – a strategic approach backed by data which positions your brand to reach for the skies!</p>
 
+                <div className="links">
+                  <Link href="/contact" className='button-primary'>Join Us</Link>
+                </div>
+
               </div>
             </div>
           </div>
@@ -138,9 +147,9 @@ const DoublePost = () => {
           <section className='post-details bg-top'>
             <div className='container'>
               <div className='heading-title'>
-                <TitleSm title='Empowering your e-commerce dreams with cutting-edge solutions' /> <br />
+              <TitleSm title={post.title} className='title-bg' /><br />
                 <br />
-                <Title title={post.title} className='title-bg' />
+                <Title title='Empowering your e-commerce dreams with cutting-edge solutions' /> 
                 <div className='img py'>
                   <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
                 </div>
@@ -150,6 +159,9 @@ const DoublePost = () => {
                   <TitleSm title='Elevate Your Web Presence : Faster, Superior, and Budget-Friendly' />
                 <p className='desc-p'>Welcome to Kinetechs Digital, where web development takes on a new dimension. Our web development consultancy is built upon cutting-edge technologies, advanced frameworks, and a wealth of expertise. With our services, your business will not only have a digital face but a lead-generating engine that propels your revenues to unprecedented heights.</p>
                 
+                <div className="links">
+                  <Link href="/contact" className='button-primary'>Join Us</Link>
+                </div>
                 </div>
               </div>
               <Banner />
@@ -160,6 +172,7 @@ const DoublePost = () => {
                   <p className='desc-p'></p>
                   <p className='desc-p'></p>
                   {/* Other common content */}
+                  
                 </div>
               </div>
             </div>
@@ -179,9 +192,9 @@ const DoublePost = () => {
           <section className='post-details bg-top'>
             <div className='container'>
               <div className='heading-title'>
-                <TitleSm title='Unlocking efficiency through IT resource outsourcing, so you can thrive in your core business' /> <br />
+              <TitleSm title={post.title} className='title-bg' /><br />
                 <br />
-                <Title title={post.title} className='title-bg' />
+                <Title title='Unlocking efficiency through IT resource outsourcing, so you can thrive in your core business' />
                 <div className='img py'>
                   <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
                 </div>
@@ -201,6 +214,9 @@ const DoublePost = () => {
                   <p className='desc-p'>At Kinetechs Digital, we recognize that every business is unique. That's why our IT Resource Outsourcing solutions are highly customizable. We work closely with you to understand your specific requirements, goals, and challenges, tailoring our services to meet your exact needs.</p>
                   <p className='desc-p'>Whether you need short-term IT assistance, long-term IT partnership, or project-specific support, we have the expertise and flexibility to deliver exceptional results. Let us be your trusted IT resource partner, allowing you to focus on achieving your business objectives while we handle the technology that drives your success.</p>
                   {/* Other common content */}
+                  <div className="links">
+                  <Link href="/contact" className='button-primary'>Join Us</Link>
+                </div>
                 </div>
               </div>
             </div>
@@ -220,9 +236,9 @@ const DoublePost = () => {
               <section className='post-details bg-top'>
                 <div className='container'>
                   <div className='heading-title'>
-                    <TitleSm title='Unlock the potential of your business with seamless mobile experiences' /> <br />
+                  <TitleSm title={post.title} className='title-bg' /><br />
                     <br />
-                    <Title title={post.title} className='title-bg' />
+                    <Title title='Unlock the potential of your business with seamless mobile experiences' /> 
                     <div className='img py'>
                       <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
                     </div>
@@ -234,15 +250,20 @@ const DoublePost = () => {
                     <TitleSm title='Cutting-Edge Technology' />
                     <p className='desc-p'>Staying at the forefront of technological advancements is our commitment. We leverage the latest tools and frameworks to ensure your mobile app is not only functional but also future-ready, offering a seamless experience across devices.</p>
                       {/* Other common content */}
+                      <div className="links">
+                  <Link href="/contact" className='button-primary'>Join Us</Link>
+                </div>
                     </div>
                   </div>
                   <Banner />
+                  
                   <div className='heading-title'>
                     <div className='desc'>
                       {/* <TitleSm title='' />
       
                       <p className='desc-p'></p> */}
                       {/* Other common content */}
+
                     </div>
                   </div>
                 </div>
@@ -262,9 +283,9 @@ const DoublePost = () => {
         <section className='post-details bg-top'>
           <div className='container'>
             <div className='heading-title'>
-              <TitleSm title='Maintenance and support are the pillars that uphold the longevity of digital success' /> <br />
+            <TitleSm title={post.title} className='title-bg' /><br />
               <br />
-              <Title title={post.title} className='title-bg' />
+              <Title title='Maintenance and support are the pillars that uphold the longevity of digital success' /> 
               <div className='img py'>
                 <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
               </div>
@@ -288,6 +309,9 @@ const DoublePost = () => {
               <TitleSm title='24/7 Technical Support' />
               <p className='desc-p'>Issues can arise at any time, which is why we offer round-the-clock technical support. Our responsive team is available to address your concerns and provide solutions whenever you need them.</p>
 
+              <div className="links">
+                  <Link href="/contact" className='button-primary'>Join Us</Link>
+                </div>
                 {/* Other common content */}
               </div>
             </div>
@@ -298,6 +322,7 @@ const DoublePost = () => {
 
                 <p className='desc-p'></p> */}
                 {/* Other common content */}
+               
               </div>
             </div>
           </div>
@@ -317,9 +342,10 @@ else if (id === "7") {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='AI and Machine Learning: Where data transforms into intelligence' /> <br />
+          <TitleSm title={post.title} className='title-bg' /><br />
+
             <br />
-            <Title title={post.title} className='title-bg' />
+            <Title title='AI and Machine Learning: Where data transforms into intelligence' /> 
             <div className='img py'>
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
             </div>
@@ -348,6 +374,9 @@ else if (id === "7") {
               <TitleSm title='AI Consulting and Strategy' />
               <p className='desc-p'>Guidance at Every Step: We don't just build AI solutions; we provide consulting and strategy services to help you navigate the complex landscape of AI adoption. We ensure your AI initiatives align with your business objectives.</p> 
               
+              <div className="links">
+                  <Link href="/contact" className='button-primary'>Join Us</Link>
+                </div>
               
               {/* Other common content */}
             </div>
@@ -378,9 +407,9 @@ else if (id === "8") {
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='Guiding businesses towards success through strategic insights' /> <br />
+          <TitleSm title={post.title} className='title-bg' /><br />
             <br />
-            <Title title={post.title} className='title-bg' />
+            <Title title='Guiding businesses towards success through strategic insights' />
             <div className='img py'>
               <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
             </div>
@@ -409,6 +438,9 @@ else if (id === "8") {
               <TitleSm title='Risk Management' />
               <p className='desc-p'>Effective risk management is crucial for sustainable growth. We help you identify, assess, and mitigate risks, ensuring your business remains resilient in a dynamic environment.</p>
               {/* Other common content */}
+              <div className="links">
+                  <Link href="mailto:kinetechsdigital@gmail.com" className='button-primary'>Join Us</Link>
+                </div>
             </div>
           </div>
           <Banner />
@@ -457,6 +489,9 @@ else if (id === "8") {
 
                 <p className='desc-p'>As a dedicated web development team, we take pride in crafting innovative and impactful digital solutions tailored to our clients' unique needs. With a team of highly skilled developers, designers, and digital strategists, we deliver web experiences that not only meet but exceed expectations. Our expertise spans across a wide spectrum of technologies and platforms, allowing us to create websites and web applications that are not only visually stunning but also highly functional and user-friendly. We understand that the digital landscape is ever-evolving, and we stay at the forefront of industry trends to ensure that our clients stay ahead of the competition. Whether you're a startup looking to establish an online presence or a well-established business seeking to revamp your digital strategy, our web development agency is here to turn your vision into a reality.</p>
                 {/* Other common content */}
+                  <div className="links">
+                  <Link href="/contact" className='button-primary'>Join Us</Link>
+                </div>
               </div>
             </div>
           </div>

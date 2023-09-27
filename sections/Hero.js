@@ -209,7 +209,7 @@ const Hero = () => {
 
 
       <motion.div className="review_container" variants={stagger}>
-        <motion.p className="total_review"variants={star}>64+ Reviews</motion.p>
+        {/* <motion.p className="total_review"variants={star}>64+ Reviews</motion.p> */}
         <IconContext.Provider value={{color:"#fff",size:"18px"}}>
           <motion.span variants={star} whileHover={{scale:1.2, rotate:180, borderRadius:'100%',cursor:'pointer'}}><IoStar/></motion.span>
           <motion.span variants={star} whileHover={{scale:1.2, rotate:180, borderRadius:'100%',cursor:'pointer'}}><IoStar/></motion.span>
@@ -243,7 +243,7 @@ const Hero = () => {
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='Kinetechs Digital' />
+            <Title title='KINETECHS DIGITAL' />
             <p>Elevate your presence and prowess with our trusted software house. We offer a full spectrum of cutting-edge IT services tailored to empower your journey in the Tech-Savvy World. Let us be your catalyst for success!</p>
           </div>
           <div className='hero-content grid-4'>

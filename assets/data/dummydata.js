@@ -28,7 +28,7 @@ export const expertise = [
   {
     id: 1,
     title: "Website Development",
-    cover: "../images/e1.jpg",
+    cover: "../images/e11.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
@@ -46,7 +46,7 @@ export const expertise = [
   {
     id: 4,
     title: "IT Resource Outsourcing",
-    cover: "../images/ITresource.jpg",
+    cover: "../images/e4.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
   },
   {

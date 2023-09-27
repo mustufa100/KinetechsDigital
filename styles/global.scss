@@ -29,7 +29,9 @@
 }
 
 /* Rest of your CSS remains unchanged */
- 
+.heroh1{
+  display: none;
+}
 
 .content_wrapper {
   width: 80%;
@@ -195,17 +197,7 @@
   }
 }
 
-// .subscribebanner {
-//   margin-top: $xll-2;
-//   margin-bottom: $xl-6;
-//   .container {
-//     border-radius: 50px 0 50px 0;
-//     padding: $xll;
-//     // background: rgb(192, 90, 255);
-//     background: $gradient2;
-//     @include flex(center, space-between, none);
-//   }
-// }
+
 //testimonial
 .testimonial {
   .card {
@@ -496,20 +488,7 @@ footer {
       margin-top: 40px;
     }
   }
-  // .subscribebanner {
-  //   .container {
-  //     @include flex(center, none, column);
-  //     button {
-  //       margin-top: 50px;
-  //     }
-  //     h1 {
-  //       font-size: 30px;
-  //     }
-  //   }
-  //   .links{
-  //     margin-top: 40px;
-  //   }
-  // }
+
   .blog-card {
     .card {
       @include flex(none, none, column);
@@ -535,6 +514,9 @@ footer {
     .flex,
     .flex1 {
       flex-direction: column;
+    }
+    .content {
+      margin-top: 5px;
     }
     .grid-3 {
       @include grid(repeat(1, 1fr), 50px);
@@ -577,10 +559,25 @@ footer {
 
 
 /* Rest of your CSS remains unchanged */
-
+.heroh1{
+  color: $white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: $xl-6;
+  flex-direction: column;
+  span{
+    display: inline-block;
+    span.second {
+      margin-left: 10px;
+    }
+  }
+}
 .content_wrapper {
 
   .left_content_wrapper {
+    display: none;
     width: 100%; /* Make it full width on small screens */
     h2 {
       font-size: 6vw;
@@ -655,8 +652,13 @@ footer {
   }
 
   .right_content_wrapper {
-   display: none;
-  }
+    width: 100%; /* Make it full width on small screens */
+    @extend .dflex; // Extend .dflex if defined
+    justify-content: center; /* Center the image on small screens */
+    img {
+      display: block;
+      max-width: 100%; /* Ensure the image doesn't exceed its container's width */  }
 }
 
-}
+
+}}

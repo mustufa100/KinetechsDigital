@@ -144,6 +144,48 @@ const star = {
 const Hero = () => {
   return (
     <motion.div initial="initial" animate="animate">
+      <motion.h2 className="heroh1">
+      <motion.span variants={firstName} initial="initial" animate="animate" className="first">
+        <motion.span variants={letter}>W</motion.span>
+        <motion.span variants={letter}>e</motion.span>
+        <motion.span variants={letter}>l</motion.span>
+        <motion.span variants={letter}>c</motion.span>
+        <motion.span variants={letter}>o</motion.span>
+        <motion.span variants={letter}>m</motion.span>
+        <motion.span variants={letter}>e</motion.span>
+
+        <motion.span variants={letter} className="second">T</motion.span>
+        <motion.span variants={letter}>o</motion.span>
+       
+
+      </motion.span>
+
+      
+
+      <motion.span variants={lastName} initial="initial" animate="animate" className="last">
+      <motion.span variants={letter}>K</motion.span>
+        <motion.span variants={letter}>I</motion.span>
+        <motion.span variants={letter}>N</motion.span>
+        <motion.span variants={letter}>E</motion.span>
+        <motion.span variants={letter}>T</motion.span>
+        <motion.span variants={letter}>E</motion.span>
+        <motion.span variants={letter}>C</motion.span>
+        <motion.span variants={letter}>H</motion.span>
+        <motion.span variants={letter}>S</motion.span>
+        <motion.span variants={letter} className="second">D</motion.span>
+        <motion.span variants={letter}>I</motion.span>
+        <motion.span variants={letter}>G</motion.span>
+        <motion.span variants={letter}>I</motion.span>
+        <motion.span variants={letter}>T</motion.span>
+        <motion.span variants={letter}>A</motion.span>
+        <motion.span variants={letter}>L</motion.span>
+        
+
+      </motion.span>
+
+
+
+      </motion.h2>
 <motion.section className="hero" initial={{opacity:0,scale:0}} animate={{opacity:1,scale:1}} transition={{duration:0.5,ease:easeing}}>
   <motion.div className="content_wrapper"initial={{opacity:0,scale:0}} animate={{opacity:1,scale:1}} transition={{duration:0.5,ease:easeing}}>
     <div className="left_content_wrapper">
@@ -226,6 +268,10 @@ const Hero = () => {
     </motion.div>
   </motion.div>
 </motion.section>
+
+
+
+
       {/* <section className='hero'>
         <div className='container'>
           <TitleLogo title='TEK' caption='Pixel' className='logobg' />

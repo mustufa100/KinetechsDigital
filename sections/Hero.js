@@ -160,7 +160,7 @@ const Hero = () => {
 
       </motion.span>
 
-      
+
 
       <motion.span variants={lastName} initial="initial" animate="animate" className="last">
       <motion.span variants={letter}>K</motion.span>
@@ -236,7 +236,7 @@ const Hero = () => {
       <motion.p variants={fadeInUp}>At Kinetechs Digital, we're your partners in harnessing the power of technology to drive your business forward. With a passion for innovation and a commitment to excellence, we offer a range of digital solutions tailored to your unique needs.</motion.p>
 
       <motion.div className="btn_group" variants={stagger}>
-        <motion.a href="/dummy.pdf" target="_blank" className="btn btn_primary"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Proposal
+        <motion.a href="/Businessproposal.pdf" target="_blank" className="btn btn_primary"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Proposal
           <IconContext.Provider value={{color:"#f97316",size:"25px"}}>
             <IoChevronForwardCircle/>
           </IconContext.Provider>

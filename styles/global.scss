@@ -4,8 +4,16 @@
   align-items: center;
   width: 100%;
 }
-
-
+.error {
+  color: $orange; /* Set the text color to red */
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-top: 5px; /* Add spacing above the error message */
+}
+.error2{
+  color: $white; /* Set the text color to red */
+  font-size: 14px; /* Adjust the font size as needed */
+  margin-top: 5px; /* Add spacing above the error message */
+}
 /* Hero Section */
 .hero {
   text-align: left;

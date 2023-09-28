@@ -187,7 +187,7 @@ const Contact = () => {
                       type="text"
                       name="user_number"
                       required
-                      placeholder="E.g., +1234567890"
+                      placeholder="E.g., +92 34567890"
                     />
                     {phoneError && <div className="error">{phoneError}</div>}
                   </div>

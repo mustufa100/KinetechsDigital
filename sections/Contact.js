@@ -100,8 +100,8 @@ const Contact = () => {
               <div className="contact-deatils">
                 <div className="box">
                   <FiHeadphones size={30} className="icons" />
-                  <a href="whatsapp://send?phone=+923333008450">
-                    <h3>+92-333-300-8450</h3>
+                  <a href="whatsapp://send?phone=+447708579388">
+                    <h3>+44-7708-579388</h3>
                   </a>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
@@ -150,7 +150,7 @@ const Contact = () => {
                   </li>
                 </Link>
 
-                <Link href="whatsapp://send?phone=+923333008450">
+                <Link href="whatsapp://send?phone=+447708579388">
                   <li className="icon">
                     <TbBrandWhatsapp size={25} />
                   </li>
@@ -187,7 +187,7 @@ const Contact = () => {
                       type="text"
                       name="user_number"
                       required
-                      placeholder="E.g., +92 34567890"
+                      placeholder="E.g., +44 7708 579388"
                     />
                     {phoneError && <div className="error">{phoneError}</div>}
                   </div>

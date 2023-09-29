@@ -24,9 +24,9 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+92-333-300-8450</h3>
+              <h3>+44-7708-579388</h3>
               <br />
-              <Link href="whatsapp://send?phone=+923333008450" className='button-primary'>Contact</Link>
+              <Link href="whatsapp://send?phone=+447708579388" className='button-primary'>Contact</Link>
             </div>
             <ul>
               <h3>KINETECHS DIGITAL</h3>
@@ -101,7 +101,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='whatsapp://send?phone=+923333008450'>
+                  <Link href='whatsapp://send?phone=+447708579388'>
                     <TbBrandWhatsapp size={25} />
                   </Link>
                 </li>

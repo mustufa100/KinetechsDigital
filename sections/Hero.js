@@ -241,7 +241,7 @@ const Hero = () => {
             <IoChevronForwardCircle/>
           </IconContext.Provider>
         </motion.a>
-        <motion.a href="whatsapp://send?phone=+923333008450" target="_blank" className="btn btn_second"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Contact
+        <motion.a href="whatsapp://send?phone=+447708579388" target="_blank" className="btn btn_second"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Contact
         <IconContext.Provider value={{color:"#f97316",size:"25px"}}>
         <IoChevronForwardCircle/>
           </IconContext.Provider>

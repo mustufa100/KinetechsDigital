@@ -439,7 +439,7 @@ else if (id === "8") {
               <p className='desc-p'>Effective risk management is crucial for sustainable growth. We help you identify, assess, and mitigate risks, ensuring your business remains resilient in a dynamic environment.</p>
               {/* Other common content */}
               <div className="links">
-                  <Link href="mailto:kinetechsdigital@gmail.com" className='button-primary'>Join Us</Link>
+                  <Link href="/contact" className='button-primary'>Join Us</Link>
                 </div>
             </div>
           </div>

@@ -126,31 +126,31 @@ const Contact = () => {
                 </div>
               </div>
               <ul>
-                <Link href="">
+                <Link href='https://twitter.com/kinetechDigital'target="_blank">
                   <li className="icon">
                     <BsTwitter size={25} />
                   </li>
                 </Link>
 
-                <Link href="">
+                <Link href='https://www.upwork.com/agencies/1705282770786992128/'target="_blank">
                   <li className="icon">
                     <TbBrandUpwork size={25} />
                   </li>
                 </Link>
 
-                <Link href="">
+                <Link href='mailto:kinetechsdigital@gmail.com'target="_blank">
                   <li className="icon">
                     <AiFillGoogleSquare size={25} />
                   </li>
                 </Link>
 
-                <Link href="">
+                <Link href='https://www.linkedin.com/company/kinetechs-digital/'target="_blank">
                   <li className="icon">
                     <AiFillLinkedin size={25} />
                   </li>
                 </Link>
 
-                <Link href="whatsapp://send?phone=+447708579388">
+                <Link href="whatsapp://send?phone=+447708579388"target="_blank">
                   <li className="icon">
                     <TbBrandWhatsapp size={25} />
                   </li>

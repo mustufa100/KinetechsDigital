@@ -86,7 +86,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href=''target="_blank">
+                  <Link href='https://www.upwork.com/agencies/1705282770786992128/'target="_blank">
                     <TbBrandUpwork size={25} />
                   </Link>
                 </li>

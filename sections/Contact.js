@@ -108,7 +108,7 @@ const Contact = () => {
                 <div className="box">
                   <IoLocationOutline size={30} className="icons" />
                   <h3>Karachi</h3>
-                  <span></span>
+                  <span>Office 23A, Street #3 Block 3A, Johar Town, Karachi 75290</span>
                 </div>
                 <div className="box">
                   <FiHelpCircle size={30} className="icons" />

@@ -81,27 +81,27 @@ const Footer = () => {
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href=''>
+                  <Link href='https://twitter.com/kinetechDigital'target="_blank">
                     <BsTwitter size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href=''>
+                  <Link href=''target="_blank">
                     <TbBrandUpwork size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='mailto:kinetechsdigital@gmail.com'>
+                  <Link href='mailto:kinetechsdigital@gmail.com'target="_blank">
                     <AiFillGoogleSquare size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href=''>
+                  <Link href='https://www.linkedin.com/company/kinetechs-digital/'target="_blank">
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='whatsapp://send?phone=+447708579388'>
+                  <Link href='whatsapp://send?phone=+447708579388'target="_blank">
                     <TbBrandWhatsapp size={25} />
                   </Link>
                 </li>

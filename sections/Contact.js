@@ -112,17 +112,17 @@ const Contact = () => {
                 </div>
                 <div className="box">
                   <FiHelpCircle size={30} className="icons" />
-                  <a href="mailto:kinetechsdigital@gmail.com">
-                    <h3>kinetechsdigital@gmail.com</h3>
+                  <a href="mailto:info@kinetechsdigital.com">
+                    <h3>info@kinetechsdigital.com</h3>
                   </a>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className="box">
-                  <BiUserCircle size={30} className="icons" />
+                  {/* <BiUserCircle size={30} className="icons" />
                   <a href="mailto:kinetechsdigital@gmail.com">
                     <h3>kinetechsdigital@gmail.com</h3>
                   </a>
-                  <span>Career at KINETECHS DIGITAL</span>
+                  <span>Career at KINETECHS DIGITAL</span> */}
                 </div>
               </div>
               <ul>
@@ -138,7 +138,7 @@ const Contact = () => {
                   </li>
                 </Link>
 
-                <Link href='mailto:kinetechsdigital@gmail.com'target="_blank">
+                <Link href='mailto:info@kinetechsdigital.com'target="_blank">
                   <li className="icon">
                     <AiFillGoogleSquare size={25} />
                   </li>

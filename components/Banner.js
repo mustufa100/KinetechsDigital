@@ -11,7 +11,7 @@ const Banner = () => {
             <TitleLogo title='Ready to Take the Lead in Your Industry?' />
           </div>
           <div className="links">
-            <Link href="mailto:kinetechsdigital@gmail.com" className='button-primary'>Mail Us</Link>
+            <Link href="mailto:info@kinetechsdigital.com" className='button-primary'>Mail Us</Link>
           </div>
         </div>
       </section>

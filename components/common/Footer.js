@@ -91,7 +91,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='mailto:kinetechsdigital@gmail.com'target="_blank">
+                  <Link href='mailto:info@kinetechsdigital.com'target="_blank">
                     <AiFillGoogleSquare size={25} />
                   </Link>
                 </li>

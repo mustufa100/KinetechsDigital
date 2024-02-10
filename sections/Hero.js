@@ -303,10 +303,10 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <Expertise />
+      {/* <Expertise /> */}
       <Banner />
-      {/* <Testimonial /> */}
-      <ShowCase />
+      <Testimonial />
+      {/* <ShowCase /> */}
       <Brand />
 
       <div className='text-center'>

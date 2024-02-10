@@ -77,32 +77,63 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "MARIUM SIDDIQUI",
+    name: "STRATEGIC MARKETING",
     cover: "../images/e3.jpg",
-    post: "KINETECHS DIGITAL - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    post: "KINETECHS DIGITAL",
+    desc: "Harness the power of strategic marketing tailored to your unique goals. Our team crafts compelling campaigns to amplify your online presence.",
   },
   {
     id: 2,
-    name: "MARIUM SIDDIQUI",
-    cover: "../images/e2.jpg",
-    post: "KINETECHS DIGITAL - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    name: "WEB DEVELOPMENT EXPERTISE",
+    cover: "../images/e1.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "Immerse your audience in a seamless online experience. Our expert developers breathe life into your ideas, creating websites that captivate and convert.",
   },
   {
     id: 3,
-    name: "SYED MUSTUFA",
-    cover: "../images/e1.jpg",
-    post: "KINETECHS DIGITAL - SENIOR WEB DEVELOPER",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    name: "SEO Mastery",
+    cover: "../images/e2.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "Rise through the ranks with our SEO prowess. We optimize your digital footprint, ensuring your brand emerges at the forefront of search engine results.",
+  },
+  // {
+  //   id: 4,
+  //   name: "SYED MUSTUFA",
+  //   cover: "../images/e4.jpg",
+  //   post: "KINETECHS DIGITAL - LEAD SOFTWARE DEVELOPER",
+  //   desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+  // },
+]
+
+export const OFFERservices = [
+  {
+    id: 1,
+    name: "Digital Marketing",
+    cover: "../images/e3.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "Leverage the full spectrum of digital marketing strategies to connect with your audience and drive meaningful engagement.",
   },
   {
-    id: 4,
-    name: "SYED MUSTUFA",
-    cover: "../images/e4.jpg",
-    post: "KINETECHS DIGITAL - LEAD SOFTWARE DEVELOPER",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    id: 2,
+    name: "WEB DEVELOPMENT",
+    cover: "../images/e1.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "From concept to execution, our developers bring your vision to life, creating user-friendly, responsive websites that leave a lasting impression.",
   },
+  {
+    id: 3,
+    name: "SEO Solutions",
+    cover: "../images/e2.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "Stay ahead of the curve with our result-oriented SEO strategies. Enhance your visibility and attract organic traffic with our tailored approaches.",
+  },
+  // {
+  //   id: 4,
+  //   name: "SYED MUSTUFA",
+  //   cover: "../images/e4.jpg",
+  //   post: "KINETECHS DIGITAL - LEAD SOFTWARE DEVELOPER",
+  //   desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+  // },
 ]
 export const showcase = [
   {

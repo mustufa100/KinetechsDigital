@@ -9,8 +9,8 @@ const Expertise = () => {
       <section className='expertise'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='OUR EXPERTISE' />
-            <p>Our expertise lies in understanding your business's unique needs and crafting tailor-made solutions. From intuitive software development that augments efficiency to strategic IT consultation that aligns with your goals, we're dedicated to driving transformation.</p>
+            <Title title='Why Choose Kinetechs Digital?' />
+            <p>Strategic Marketing: Harness the power of strategic marketing tailored to your unique goals. Our team crafts compelling campaigns to amplify your online presence.</p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (

@@ -1,7 +1,7 @@
 import React from "react"
 import { Title } from "./common/Title"
 import Link from "next/link"
-import { testimonial } from "@/assets/data/dummydata"
+import { testimonial,OFFERservices } from "@/assets/data/dummydata"
 import { HiOutlineArrowRight } from "react-icons/hi"
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri"
 import "slick-carousel/slick/slick.css"
@@ -56,7 +56,7 @@ const Testimonial = () => {
       <section className='testimonial'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='TESTIMONIALS' />
+            <Title title='Why Choose Us' />
           </div>
           <div className='cards'>
             <Slider {...settings}>
@@ -82,6 +82,47 @@ const Testimonial = () => {
                 </div>
               ))}
             </Slider>
+          </div>
+        </div>
+      </section>
+      <div className='heading-title'>
+      <Title title='OUR COMMITMENT' />
+            <p>At Kinetechs Digital, we go beyond services – we forge partnerships. Your success is our priority, and we are dedicated to delivering innovative solutions that propel your brand forward.</p>
+           </div>
+         
+      <section className='testimonial'>
+        <div className='container'>
+          <div className='heading-title'>
+            <Title title='Services We Offer' />
+          </div>
+          <div className='cards'>
+            <Slider {...settings}>
+              {OFFERservices.map((user) => (
+                <div>
+                  <div className='card'>
+                    <div className='image'>
+                      <div className='img'>
+                        <img src={user.cover} alt='' />
+                      </div>
+                      <div className='img-text'>
+                        <h3>{user.name}</h3>
+                        <span>{user.post}</span>
+                      </div>
+                    </div>
+                    <div className='details'>
+                      <p>{user.desc}</p>
+                      {/* <Link href='/#'>
+                        VIEW CASE <HiOutlineArrowRight className='link-icon' />
+                      </Link> */}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </Slider>
+            <div className='heading-title'>
+          <Title title='Ready to Transform Your Digital Presence?' />
+            <p>At Kinetechs Digital, we go beyond services – we forge partnerships. Your success is our priority, and we are dedicated to delivering innovative solutions that propel your brand forward.</p>
+            </div>
           </div>
         </div>
       </section>

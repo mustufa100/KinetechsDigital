@@ -52,21 +52,21 @@ const Footer = () => {
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/services/1'>Development</Link>
+                <Link href='/services/1'>Website Development</Link>
               </li>
               <li>
                 <Link href='/services/2'>Digital Marketing</Link>
               </li>
               <li>
-                <Link href='/services/3'>Ecommerce Solutions</Link>
+                <Link href='/services/3'>E-Commerce Solutions</Link>
               </li>
-              {/* <li>
-                <Link href='/services/4'>IT Resource Outsourcing</Link>
+              <li>
+                <Link href='/services/4'>Brand Development</Link>
               </li>
               <li>
                 <Link href='/services/5'>Mobile App Development</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/services/6'>Maintenance And Support</Link>
               </li>
               <li>

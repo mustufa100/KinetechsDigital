@@ -29,7 +29,7 @@ export const expertise = [
     id: 1,
     title: "Development",
     cover: "../images/e11.jpg",
-    desc: [{ text: "Website Development" }, { text: "App Development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [{ text: "Website Development" }, { text: "Mobile Development" }, { text: "" }, { text: "" }, { text: "" }],
   },
   {
     id: 2,

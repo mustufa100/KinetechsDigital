@@ -27,34 +27,34 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Development",
+    title: "Website Development",
     cover: "../images/e11.jpg",
-    desc: [{ text: "Website Development" }, { text: "Mobile Development" }],
+    desc: [{ text: "Custom Website Development" }, { text: "E-commerce Website Development" },{ text: "Content Management Systems (CMS) Development (e.g., WordPress, Drupal)" },{ text: "Website Maintenance and Support" }],
   },
   {
     id: 2,
     title: "Digital Marketing",
     cover: "../images/dm.jpg",
-    desc: [{ text: "Social Media Marketing" }, { text: "Digital Marketing" }, { text: "Social Media Advertising" }, { text: "Search Engine Marketing / PPC" },{ text: "SEO" }],
+    desc: [{ text: "Search Engine Optimization (SEO)" }, { text: "Pay-Per-Click (PPC) Advertising" }, { text: "Google Ads (Search, Display, Shopping, Video)" }, { text: "Social Media Advertising (Facebook, Instagram, LinkedIn)" },{ text: "Social Media Marketing" },{text: "Content Marketing"},{text: "Email Marketing Campaigns"}],
   },
   {
     id: 3,
     title: "E-Commerce Solutions",
     cover: "../images/e3.jpg",
-    desc: [{ text: "Shopify Activation And Store Handling" }, { text: "Amazon (FBA,FBM & Private Label)" }, { text: "Wallmart Store Handling" }, { text: "Etsy Store" }],
+    desc: [{ text: "E-commerce Website Development" }, { text: "E-commerce Marketing" }, { text: "Amazon, Shopify Walmart Sellers account creation and management" }],
   },
-  // {
-  //   id: 4,
-  //   title: "IT Resource Outsourcing",
-  //   cover: "../images/e4.jpg",
-  //   desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
-  // },
-  // {
-  //   id: 5,
-  //   title: "Mobile App Development",
-  //   cover: "../images/appdev.jpg",
-  //   desc: [{ text: "App design" }, { text: "App development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }],
-  // },
+  {
+    id: 4,
+    title: "Brand Development",
+    cover: "../images/e4.jpg",
+    desc: [{ text: "Brand Strategy" }, { text: "Brand Positioning & Brand Identity Development" }, { text: "Brand Guidelines Creation" },{text:"Graphic Design, Logo Design, Marketing Collateral Design (Brochures, Flyers, Business Cards), Packaging Design."},{text:"Explainer Videos"},{text:"Product Demos"},{text:"Testimonials and Case Studies"}],
+  },
+  {
+    id: 5,
+    title: "Mobile App Development",
+    cover: "../images/appdev.jpg",
+    desc: [{ text: "IOS App Development" }, { text: "Android App Development" }, { text: "Cross-Platform App Development" }, { text: "App UI/UX Design" }],
+  },
   // {
   //   id: 6,
   //   title: "Maintenance and Support",

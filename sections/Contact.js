@@ -132,11 +132,11 @@ const Contact = () => {
                   </li>
                 </Link>
 
-                <Link href='https://www.upwork.com/agencies/1705282770786992128/'target="_blank">
+                {/* <Link href='https://www.upwork.com/agencies/1705282770786992128/'target="_blank">
                   <li className="icon">
                     <TbBrandUpwork size={25} />
                   </li>
-                </Link>
+                </Link> */}
 
                 <Link href='mailto:info@kinetechsdigital.com'target="_blank">
                   <li className="icon">

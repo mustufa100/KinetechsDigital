@@ -85,11 +85,11 @@ const Footer = () => {
                     <BsTwitter size={25} />
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href='https://www.upwork.com/agencies/1705282770786992128/'target="_blank">
                     <TbBrandUpwork size={25} />
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href='mailto:info@kinetechsdigital.com'target="_blank">
                     <AiFillGoogleSquare size={25} />

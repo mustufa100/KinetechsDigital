@@ -233,7 +233,7 @@ const Hero = () => {
         {/* <span>Design <span className="second">Focused</span></span>
         <span>Startup, <span className="second">For</span> Startups.</span> */}
       </motion.h2>
-      <motion.p variants={fadeInUp}>At Kinetechs Digital, we're your partners in harnessing the power of technology to drive your business forward. With a passion for innovation and a commitment to excellence, we offer a range of digital solutions tailored to your unique needs.</motion.p>
+      <motion.p variants={fadeInUp}>We create digital business <br /> Provide top noche marketing services and development services.</motion.p>
 
       <motion.div className="btn_group" variants={stagger}>
         <motion.a href="/Businessproposal.pdf" target="_blank" className="btn btn_primary"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Proposal

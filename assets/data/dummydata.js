@@ -35,44 +35,44 @@ export const expertise = [
     id: 2,
     title: "Digital Marketing",
     cover: "../images/dm.jpg",
-    desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    desc: [{ text: "Social Media Marketing" }, { text: "Digital Marketing" }, { text: "Social Media Advertising" }, { text: "Search Engine Marketing / PPC" },{ text: "SEO" }],
   },
   {
     id: 3,
     title: "E-Commerce Solutions",
     cover: "../images/e3.jpg",
-    desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    desc: [{ text: "Shopify Activation And Store Handling" }, { text: "Amazon (FBA,FBM & Private Label)" }, { text: "Wallmart Store Handling" }, { text: "Etsy Store" }],
   },
-  {
-    id: 4,
-    title: "IT Resource Outsourcing",
-    cover: "../images/e4.jpg",
-    desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
-  },
-  {
-    id: 5,
-    title: "Mobile App Development",
-    cover: "../images/appdev.jpg",
-    desc: [{ text: "App design" }, { text: "App development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }],
-  },
-  {
-    id: 6,
-    title: "Maintenance and Support",
-    cover: "../images/maintain.jpg",
-    desc: [{ text: "Issue Resolution" }, { text: "Software Updates" }, { text: "Security Monitoring" }, { text: "Data Backup & Recovery" }],
-  },
-  {
-    id: 7,
-    title: "AI and Machine Learning",
-    cover: "../images/aiml.jpg",
-    desc: [{ text: "Data Collection & Preparation" }, { text: "Feature Engineering" }, { text: "Model Deployment" }, { text: "Scalability" }],
-  },
-  {
-    id: 8,
-    title: "Consulting and Advisory",
-    cover: "../images/consultancy.jpg",
-    desc: [{ text: "Strategic Planning" }, { text: "Market Research" }, { text: "Business Process Optimization" }, { text: "Risk Assessment" }],
-  },
+  // {
+  //   id: 4,
+  //   title: "IT Resource Outsourcing",
+  //   cover: "../images/e4.jpg",
+  //   desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+  // },
+  // {
+  //   id: 5,
+  //   title: "Mobile App Development",
+  //   cover: "../images/appdev.jpg",
+  //   desc: [{ text: "App design" }, { text: "App development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Maintenance and Support",
+  //   cover: "../images/maintain.jpg",
+  //   desc: [{ text: "Issue Resolution" }, { text: "Software Updates" }, { text: "Security Monitoring" }, { text: "Data Backup & Recovery" }],
+  // },
+  // {
+  //   id: 7,
+  //   title: "AI and Machine Learning",
+  //   cover: "../images/aiml.jpg",
+  //   desc: [{ text: "Data Collection & Preparation" }, { text: "Feature Engineering" }, { text: "Model Deployment" }, { text: "Scalability" }],
+  // },
+  // {
+  //   id: 8,
+  //   title: "Consulting and Advisory",
+  //   cover: "../images/consultancy.jpg",
+  //   desc: [{ text: "Strategic Planning" }, { text: "Market Research" }, { text: "Business Process Optimization" }, { text: "Risk Assessment" }],
+  // },
 ]
 export const testimonial = [
   {

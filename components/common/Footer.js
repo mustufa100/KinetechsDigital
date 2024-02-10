@@ -37,7 +37,7 @@ const Footer = () => {
                 <Link href='/services'>Services</Link>
               </li>
               <li>
-                <Link href='/showcase'>Showcase</Link>
+                <Link href='/showcase'>Projects</Link>
               </li>
               <li>
                 <Link href='/blogs'>Blog</Link>
@@ -52,7 +52,7 @@ const Footer = () => {
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/services/1'>Web Design & Development</Link>
+                <Link href='/services/1'>Development</Link>
               </li>
               <li>
                 <Link href='/services/2'>Digital Marketing</Link>
@@ -60,7 +60,7 @@ const Footer = () => {
               <li>
                 <Link href='/services/3'>Ecommerce Solutions</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/services/4'>IT Resource Outsourcing</Link>
               </li>
               <li>
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link href='/services/8'>Consulting And Advisory</Link>
-              </li>
+              </li> */}
             </ul>
             
             <ul>

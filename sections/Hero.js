@@ -289,8 +289,8 @@ const Hero = () => {
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
-            <Title title='KINETECHS DIGITAL' />
-            <p>Elevate your presence and prowess with our trusted software house. We offer a full spectrum of cutting-edge IT services tailored to empower your journey in the Tech-Savvy World. Let us be your catalyst for success!</p>
+            <Title title='Unlock Your Potential with Kinetechs Digital' />
+            <p>At Kinetechs Digital, we transcend boundaries to redefine digital success. Our comprehensive suite of services seamlessly integrates top-notch marketing and development solutions, propelling your brand to new heights.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (

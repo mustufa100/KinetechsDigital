@@ -27,9 +27,9 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Website Development",
+    title: "Development",
     cover: "../images/e11.jpg",
-    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    desc: [{ text: "Website Development" }, { text: "App Development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
   },
   {
     id: 2,

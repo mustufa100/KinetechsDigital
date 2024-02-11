@@ -75,7 +75,7 @@ const Agency = () => {
           </div>
 
           <div className='content flex1'>
-            <div className='left w-50 py'>
+            <div className='left w-50 ml'>
               <TitleSm title='' />
               <div className='heading-title'>
                 <Title title='What Sets Us Apart' />
@@ -83,7 +83,7 @@ const Agency = () => {
               </div>
             </div>
 
-            <div className='right w-50 py'>
+            <div className='right w-50 ml'>
               <TitleSm title='' />
               <div className='heading-title'>
                 <Title title='Our Values' />

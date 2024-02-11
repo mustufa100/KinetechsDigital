@@ -60,9 +60,9 @@ const Footer = () => {
               <li>
                 <Link href='/services/3'>E-Commerce Solutions</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href='/services/4'>Brand Development</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href='/services/5'>Mobile App Development</Link>
               </li>

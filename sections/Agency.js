@@ -94,7 +94,7 @@ const Agency = () => {
 
           <div className='content flex'>
             <div className='left w-40 py'>
-              <img src='/images/about2.jpg' alt='Img' className='round' width='100%' height='100%' />
+              <img src='/images/kd1.jpg' alt='Img' className='round' width='100%' height='100%' />
             </div>
             <div className='right w-60 ml'>
               <TitleSm title='Kinetechs Mission' />

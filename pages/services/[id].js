@@ -45,19 +45,46 @@ const DoublePost = () => {
             <TitleSm title={post.title} className='title-bg' /><br />
               <br />
               <Title title='In the world of web development, every line of code is a brushstroke on the canvas of the internet' />
-              <div className='img py'>
-                <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
+              {/* <div className='img py'>
+                <img src={post.cover} alt={post.title} width='60%' height='50%' className='round' />
+              </div> */}
+              <div className='desc py'>
+                <TitleSm title='Custom Website Development' />
+                <p className='desc-p'>Tailor your online presence with our bespoke website development services. Our team crafts unique, user-friendly websites that align perfectly with your brand, ensuring a personalized and engaging digital experience for your audience.</p>
+                <div className='img py'>
+                <img src="../images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt={post.title} width='60%' height='100%' className='round' />
               </div>
-              <div className='desc'>
-                <TitleSm title='Architects of Digital Success: Unleashing Cutting-Edge Web Development Solutions' />
-                <p className='desc-p'>At Kinetechs Digital, we're more than developers we're architects of your digital success. Our web development services are designed to harness the latest technology trends, creating websites that resonate with your audience and drive conversions.</p>
-                <TitleSm title='Navigating the Digital Landscape' />
-              <p className='desc-p'>But we don't stop at development. We understand the intricacies of the digital realm. Our holistic approach extends to crafting seamless user experiences, optimizing for search engines, and ensuring your web platform stands out in a crowded digital arena.</p>
-              <TitleSm title='Shape Your Digital Destiny' />
-              <p className='desc-p'>Join hands with Kinetechs Digital and transform your online presence into a powerhouse. Let us redefine your web development journey, empowering your business to reach new heights of success.</p>
+              
+               <TitleSm title='E-commerce Website Development' />
+              <p className='desc-p'>Elevate your online business with our cutting-edge e-commerce solutions. From seamless navigation to secure payment gateways, we specialize in creating dynamic, high-performance e-commerce websites that drive sales and enhance customer satisfaction.</p>
+              <div className='img py'>
+                <img src="../images/alex-kotliarskyi-ourQHRTE2IM-unsplash.jpg" alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+              
+              
+              
+              <TitleSm title='Content Management Systems (CMS) Development' />
+              <p className='desc-p'>Harness the power of streamlined content control with our CMS development expertise. Whether it’s WordPress or Drupal, we design and implement robust CMS solutions, empowering you to manage and update your website content effortlessly.</p>
+              <div className='img py'>
+                <img src="../images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg" alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+              
+              <TitleSm title='Website Maintenance and Support' />
+              <p className='desc-p'>Ensure your website’s optimal performance with our dedicated maintenance and support services. From regular updates to troubleshooting, our team provides ongoing assistance, allowing you to focus on your business while we take care of the technical details.</p>
+              <div className='img py'>
+                <img src="../images/wm.jpg" alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+
+              <TitleSm title='Responsive Web Design' />
+              <p className='desc-p'>Make a lasting impression across devices with our responsive web design services. We create visually appealing and functional websites that adapt seamlessly to various screen sizes, ensuring a consistent and enjoyable user experience for your visitors.</p>
+              <div className='img py'>
+                <img src="../images/markus-spiske-MI9-PY5cyNs-unsplash.jpg"alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+             
                 {/* Other common content */}
               </div>
             </div>
+
             <Banner />
             <div className='heading-title'>
               <div className='desc'>
@@ -67,7 +94,7 @@ const DoublePost = () => {
                 {/* Other common content */}
                 <div className="links">
                   <Link href="/contact" className='button-primary'>Join Us</Link>
-                </div>              
+                </div>      
               </div>
             </div>
           </div>
@@ -91,23 +118,55 @@ const DoublePost = () => {
               <Title title='START WITH A RIPPLE' /> <br />
               <Title title='END WITH A WAVE' /> 
 
+             
+              <div className='desc py'>
+                <TitleSm title='Search Engine Optimization (SEO)' />
+                <p className='desc-p'>Boost your online visibility organically with our targeted SEO strategies, ensuring your website ranks higher on search engine results.</p>
+                
               <div className='img py'>
-                <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
+                <img src="../images/dm1.jpg" alt={post.title} width='60%' height='100%' className='round' />
               </div>
-              <div className='desc'>
-                <TitleSm title='Affordable Digital Marketing Agency for Small Businesses' />
-                <p className='desc-p'>More exposure, more leads, and more sales, at a low expense—That's what you get when you partner with Aciano Technologies, the right digital marketing agency for small businesses. Our digital marketing strategies are successful because they are powered by data analytics, market research, and a bunch of creative minds delivering unrivaled results.</p>
-                <TitleSm title='COLD HARD DATA,' />
-                <TitleSm title='COLD HARD RESULTS.' />
-              <p className='desc-p'>At Kinetechs Digital, we embark on a journey to amplify your business's impact. By assessing your industry and target market, we curate a tailored selection of digital marketing solutions that fortify your market presence, amplify visibility, and culminate in enhanced ROI. Our all-encompassing approach to digital marketing spans key domains, including Search Engine Optimization, Social Media Marketing, and Content Writing.</p>
-              <TitleSm title='Recognize the Signs: Your Business Requires Our Digital Marketing Services' />
-              <p className='desc-p'>Are you eager to expand your reach globally?</p>
-              <p className='desc-p'>Do you aim to attract precise clientele and engage key decision-makers?</p>
-              <p className='desc-p'>Are your sales and revenues experiencing a decline?</p>
-              <p className='desc-p'>Do you seek a transparent digital marketing agency?</p>
-              <p className='desc-p'>Is securing the top-ranking spot your aspiration?</p>
-              <p className='desc-p'>If the answer to each of these questions is a resounding 'yes,' then it's time to embrace the trusted digital marketing services of Kinetechs Digital.</p>
 
+                {/* <TitleSm title='COLD HARD DATA,' />
+                <TitleSm title='COLD HARD RESULTS.' /> */}
+
+                <TitleSm title='Pay-Per-Click (PPC) Advertising'/>
+              <p className='desc-p'>Drive immediate traffic and conversions through our PPC advertising services, optimizing your ad spend for maximum impact.</p>
+              <div className='img py'>
+                <img src="../images/dm2.jpg" alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+
+              <TitleSm title='Google Ads (Search, Display, Shopping, Video)' />
+              <p className='desc-p'>Harness the power of Google Ads across various platforms – Search, Display, Shopping, and Video – to reach your audience effectively and achieve specific campaign goals.</p>
+              <div className='img py'>
+                <img src="../images/dm3.jpg" alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+
+              <TitleSm title='Social Media Advertising (Facebook, Instagram, LinkedIn)' />
+              <p className='desc-p'>Engage your target audience on social platforms with our targeted advertising services, spanning Facebook, Instagram, and LinkedIn, tailored to maximize your brand’s reach.</p>
+              <div className='img py'>
+                <img src="../images/dm4.jpg" alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+
+              <TitleSm title='Social Media Marketing' />
+              <p className='desc-p'>Amplify your brand presence and connect with your audience through strategic social media marketing, fostering engagement and building lasting relationships.</p>
+              <div className='img py'>
+                <img src="../images/dm5.jpg" alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+
+              <TitleSm title='Content Marketing' />
+              <p className='desc-p'>Fuel your digital presence with compelling content marketing strategies, creating valuable and relevant content to attract, engage, and convert your audience.</p>
+             <div className='img py'>
+                <img src="../images/dm6.jpg" alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+              
+              <TitleSm title='Email Marketing Campaigns' />
+              <p className='desc-p'>Stay connected with your audience through effective email marketing campaigns, delivering personalized messages that drive customer engagement and loyalty.</p>
+              <div className='img py'>
+                <img src="../images/campaign.jpg" alt={post.title} width='60%' height='100%' className='round' />
+              </div>
+              
+              
                 {/* Other common content */}
               </div>
             </div>
@@ -150,21 +209,36 @@ const DoublePost = () => {
               <TitleSm title={post.title} className='title-bg' /><br />
                 <br />
                 <Title title='Empowering your e-commerce dreams with cutting-edge solutions' /> 
-                <div className='img py'>
+                {/* <div className='img py'>
                   <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
-                </div>
-                <div className='desc'>
-                  <TitleSm title='E-commerce Website Development Services to Boost your Online Sales' />
-                  <p className='desc-p'>Looking for visually appealing and robust e-commerce websites that sell? Try Us! We offer secure and scalable e-commerce website development and maintenance services with unrivaled customization and seamless integrations. Our e-commerce solutions excellently tailored to your business needs and expectations. Whether you want to build a brand new store or modify the existing one into robust, sales-driven, and Intuitive online store, discuss with us!</p>
-                  <TitleSm title='Elevate Your Web Presence : Faster, Superior, and Budget-Friendly' />
-                <p className='desc-p'>Welcome to Kinetechs Digital, where web development takes on a new dimension. Our web development consultancy is built upon cutting-edge technologies, advanced frameworks, and a wealth of expertise. With our services, your business will not only have a digital face but a lead-generating engine that propels your revenues to unprecedented heights.</p>
+                </div> */}
+                <div className='desc py'>
+                  <TitleSm title='E-commerce Website Development' />
+                  <p className='desc-p'>Enhance your online store’s performance with our tailored development solutions for a seamless shopping experience.</p>
+                  <div className='img py'>
+                    <img src={post.cover} alt={post.title} width='60%' height='100%' className='round' />
+                  </div>
                 
+                  <TitleSm title='E-commerce Marketing' />
+                <p className='desc-p'>Drive sales and amplify brand visibility through our strategic digital marketing approaches.</p>
+                <div className='img py'>
+                    <img src={post.cover} alt={post.title} width='60%' height='100%' className='round' />
+                  </div>
+                
+                <TitleSm title='Amazon, Shopify, Walmart Sellers Account Management' />
+                <p className='desc-p'>Expand your reach on major platforms with our expertise in creating and optimizing seller accounts for Amazon, Shopify, and Walmart.</p>
+                <div className='img py'>
+                    <img src={post.cover} alt={post.title} width='60%' height='100%' className='round' />
+                  </div>
+
                 <div className="links">
                   <Link href="/contact" className='button-primary'>Join Us</Link>
                 </div>
                 </div>
               </div>
+
               <Banner />
+
               <div className='heading-title'>
                 <div className='desc'>
                   <TitleSm title='' />
@@ -239,16 +313,35 @@ const DoublePost = () => {
                   <TitleSm title={post.title} className='title-bg' /><br />
                     <br />
                     <Title title='Unlock the potential of your business with seamless mobile experiences' /> 
-                    <div className='img py'>
-                      <img src={post.cover} alt={post.title} width='100%' height='100%' className='round' />
+                    {/* <div className='img py'>
+                      <img src={post.cover} alt={post.title} width='60%' height='50%' className='round' />
+                    </div> */}
+
+                    <div className='desc py'>
+                      <TitleSm title='iOS App Development' />
+                      <p className='desc-p'>Unlock the potential of the Apple ecosystem with our iOS app development services. Our skilled team brings your ideas to life, creating intuitive and high-performance applications tailored specifically for iPhones and iPads.</p>
+                      <div className='img py'>
+                      <img src="../images/dm7.jpg" alt={post.title} width='50%' height='100%' className='round' />
                     </div>
-                    <div className='desc'>
-                      <TitleSm title='Mobile App Development' />
-                      <p className='desc-p'>Experience Excellence in Mobile App Development with Kinetechs Digital. We create custom apps that are secure, scalable, and user-friendly, catering to startups, SMEs, and multinational enterprises.</p>
-                      <TitleSm title='User-Centric Design' />
-                    <p className='desc-p'>User experience is at the core of our mobile app development philosophy. Our design and development teams collaborate to create intuitive, visually appealing, and user-friendly apps that keep your audience engaged and coming back for more.</p>
-                    <TitleSm title='Cutting-Edge Technology' />
-                    <p className='desc-p'>Staying at the forefront of technological advancements is our commitment. We leverage the latest tools and frameworks to ensure your mobile app is not only functional but also future-ready, offering a seamless experience across devices.</p>
+
+                      <TitleSm title='Android App Development' />
+                    <p className='desc-p'>Reach the vast Android user base with our expert Android app development. From concept to deployment, we craft feature-rich applications that capitalize on the flexibility and diversity of the Android platform, providing your users with a seamless experience.</p>
+                    <div className='img py'>
+                      <img src="../images/dm11.jpg" alt={post.title} width='50%' height='100%' className='round' />
+                    </div>
+
+                    <TitleSm title='Cross-Platform App Development' />
+                    <p className='desc-p'>Maximize efficiency and market reach with our cross-platform app development solutions. Using frameworks like React Native or Flutter, we build apps that seamlessly run on both iOS and Android devices, reducing development time and ensuring a consistent user experience.</p>
+                      <div className='img py'>
+                      <img src="../images/dm9.jpg" alt={post.title} width='60%' height='100%' className='round' />
+                    </div>
+
+                    <TitleSm title='App UI/UX Design' />
+                    <p className='desc-p'>Elevate your app’s visual appeal and user experience with our UI/UX design services. Our design team combines aesthetics and functionality, creating interfaces that captivate users and enhance overall usability, ensuring your app stands out in a competitive market.</p>
+                    <div className='img py'>
+                      <img src="../images/dm10.jpg" alt={post.title} width='60%' height='100%' className='round' />
+                    </div>
+                      
                       {/* Other common content */}
                       <div className="links">
                   <Link href="/contact" className='button-primary'>Join Us</Link>

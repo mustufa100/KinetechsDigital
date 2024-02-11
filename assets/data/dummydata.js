@@ -43,12 +43,12 @@ export const expertise = [
     cover: "../images/e3.jpg",
     desc: [{ text: "E-commerce Website Development" }, { text: "E-commerce Marketing" }, { text: "Amazon, Shopify Walmart Sellers account creation and management" }],
   },
-  {
-    id: 4,
-    title: "Brand Development",
-    cover: "../images/e4.jpg",
-    desc: [{ text: "Brand Strategy" }, { text: "Brand Positioning & Brand Identity Development" }, { text: "Brand Guidelines Creation" },{text:"Graphic Design, Logo Design, Marketing Collateral Design (Brochures, Flyers, Business Cards), Packaging Design."},{text:"Explainer Videos"},{text:"Product Demos"},{text:"Testimonials and Case Studies"}],
-  },
+  // {
+  //   id: 4,
+  //   title: "Brand Development",
+  //   cover: "../images/e4.jpg",
+  //   desc: [{ text: "Brand Strategy" }, { text: "Brand Positioning & Brand Identity Development" }, { text: "Brand Guidelines Creation" },{text:"Graphic Design, Logo Design, Marketing Collateral Design (Brochures, Flyers, Business Cards), Packaging Design."},{text:"Explainer Videos"},{text:"Product Demos"},{text:"Testimonials and Case Studies"}],
+  // },
   {
     id: 5,
     title: "Mobile App Development",

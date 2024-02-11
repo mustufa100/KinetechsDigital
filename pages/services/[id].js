@@ -216,19 +216,19 @@ const DoublePost = () => {
                   <TitleSm title='E-commerce Website Development' />
                   <p className='desc-p'>Enhance your online store’s performance with our tailored development solutions for a seamless shopping experience.</p>
                   <div className='img py'>
-                    <img src={post.cover} alt={post.title} width='60%' height='100%' className='round' />
+                    <img src="../images/em1.jpg" alt={post.title} width='60%' height='100%' className='round' />
                   </div>
                 
                   <TitleSm title='E-commerce Marketing' />
                 <p className='desc-p'>Drive sales and amplify brand visibility through our strategic digital marketing approaches.</p>
                 <div className='img py'>
-                    <img src={post.cover} alt={post.title} width='60%' height='100%' className='round' />
+                    <img src="../images/em2.jpg" alt={post.title} width='60%' height='100%' className='round' />
                   </div>
                 
                 <TitleSm title='Amazon, Shopify, Walmart Sellers Account Management' />
                 <p className='desc-p'>Expand your reach on major platforms with our expertise in creating and optimizing seller accounts for Amazon, Shopify, and Walmart.</p>
                 <div className='img py'>
-                    <img src={post.cover} alt={post.title} width='60%' height='100%' className='round' />
+                    <img src="../images/em3.jpg" alt={post.title} width='60%' height='100%' className='round' />
                   </div>
 
                 <div className="links">

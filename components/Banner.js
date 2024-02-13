@@ -8,7 +8,7 @@ const Banner = () => {
       <section className='banner'>
         <div className='container'>
           <div>
-            <TitleLogo title='Here we will initiate your project with us' />
+            <TitleLogo title='Here we initiate your project with us' />
           </div>
           <div className="links">
             <Link href="/contact" className='button-primary'>Contact US</Link>

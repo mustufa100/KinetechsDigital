@@ -122,7 +122,7 @@ export const OFFERservices = [
   },
   {
     id: 3,
-    name: "SEO Solutions",
+    name: "E-Commerce Solutions",
     cover: "../images/seo1.jpg",
     post: "KINETECHS DIGITAL",
     desc: "Stay ahead of the curve with our result-oriented SEO strategies. Enhance your visibility and attract organic traffic with our tailored approaches.",

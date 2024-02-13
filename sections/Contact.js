@@ -5,12 +5,14 @@ import {
   AiFillGoogleSquare,
   AiFillLinkedin,
   AiFillFacebook,
+  AiFillInstagram,
 } from "react-icons/ai";
+import { FaPhoneSquare } from "react-icons/fa";
 import { BiUserCircle } from "react-icons/bi";
 import { BsTwitter } from "react-icons/bs";
 import { FiHeadphones, FiHelpCircle } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
-import { TbBrandWhatsapp, TbBrandUpwork } from "react-icons/tb";
+import { TbBrandWhatsapp, TbBrandUpwork, TbBrandFacebook } from "react-icons/tb";
 import emailjs from "@emailjs/browser";
 import "react-phone-input-2/lib/style.css"; // Import the styles
 
@@ -100,15 +102,15 @@ const Contact = () => {
               <div className="contact-deatils">
                 <div className="box">
                   <FiHeadphones size={30} className="icons" />
-                  <a href="whatsapp://send?phone=+447708579388">
-                    <h3>+44-7708-579388</h3>
+                  <a href="tel:+17073704231">
+                    <h3>+1 707-370-4231</h3>
                   </a>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className="box">
                   <IoLocationOutline size={30} className="icons" />
-                  <h3>Karachi</h3>
-                  <span>Office 23A, Street #3 Block 3A, Johar Town, Karachi 75290</span>
+                  <h3>Florida</h3>
+                  <span>9631 Fountainebleau Blvd, #411, Miami, Florida, 33172</span>
                 </div>
                 <div className="box">
                   <FiHelpCircle size={30} className="icons" />
@@ -132,27 +134,28 @@ const Contact = () => {
                   </li>
                 </Link>
 
-                {/* <Link href='https://www.upwork.com/agencies/1705282770786992128/'target="_blank">
+                <Link href='https://www.facebook.com/profile.php?id=61552884783681'target="_blank">
                   <li className="icon">
-                    <TbBrandUpwork size={25} />
-                  </li>
-                </Link> */}
-
-                <Link href='mailto:info@kinetechsdigital.com'target="_blank">
-                  <li className="icon">
-                    <AiFillGoogleSquare size={25} />
+                    <TbBrandFacebook size={25} />
                   </li>
                 </Link>
 
-                <Link href='https://www.linkedin.com/company/kinetechs-digital/'target="_blank">
+                <Link href='https://www.instagram.com/kinetechsdigital/'target="_blank">
+                  <li className="icon">
+                    <AiFillInstagram size={25} />
+                  </li>
+                </Link>
+
+                {/* <Link href='https://www.linkedin.com/company/kinetechs-digital/'target="_blank">
                   <li className="icon">
                     <AiFillLinkedin size={25} />
                   </li>
-                </Link>
+                </Link> */}
 
-                <Link href="whatsapp://send?phone=+447708579388"target="_blank">
+                <Link href="tel:+17073704231"target="_blank">
                   <li className="icon">
-                    <TbBrandWhatsapp size={25} />
+                    <FaPhoneSquare size={25} />
+
                   </li>
                 </Link>
               </ul>
@@ -187,7 +190,7 @@ const Contact = () => {
                       type="text"
                       name="user_number"
                       required
-                      placeholder="E.g., +44 7708 579388"
+                      placeholder="E.g., +1 707-370-4231"
                     />
                     {phoneError && <div className="error">{phoneError}</div>}
                   </div>

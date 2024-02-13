@@ -8,10 +8,10 @@ const Banner = () => {
       <section className='banner'>
         <div className='container'>
           <div>
-            <TitleLogo title='Ready to Take the Lead in Your Industry?' />
+            <TitleLogo title='Here we will initiate your project with us' />
           </div>
           <div className="links">
-            <Link href="mailto:info@kinetechsdigital.com" className='button-primary'>Mail Us</Link>
+            <Link href="/contact" className='button-primary'>Contact US</Link>
           </div>
         </div>
       </section>

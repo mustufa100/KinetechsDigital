@@ -41,13 +41,15 @@
   display: none;
 }
 
+//home page banner
+
 .content_wrapper {
   width: 80%;
   margin: 0 auto;
   @extend .dflex; // Extend .dflex if defined
   justify-content: space-between;
   align-items: center;
-  background-color: $gradient2;
+  background-color: #5c0089;
   clip-path: polygon(0 0 , 100% 0 , 100% 90% , 0 100%);
   border-radius: 16px;
   padding: 3%;
@@ -447,6 +449,9 @@ footer {
     }
   }
 }
+
+// color order series transition effect
+
 .bla{
   position: fixed;
    top: 0px;; 
@@ -456,7 +461,7 @@ footer {
     height: 100vh; 
     z-index:30;
     --tw-bg-opacity: 1;
-    background-color: $gradient2;
+    background-color: $silver;
 }
 .blac{
   position: fixed;
@@ -478,7 +483,7 @@ footer {
     height: 100vh; 
     z-index:10;
     --tw-bg-opacity: 1;
-    background-color: $silver;
+    background-color: #5c0089;
 }
 @media screen and (max-width: 800px) {
   

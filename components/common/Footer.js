@@ -1,10 +1,11 @@
 import Link from "next/link"
 import { TitleLogo } from "./Title"
-import { BsTwitter } from "react-icons/bs"
-import { AiFillGoogleSquare, AiFillLinkedin } from "react-icons/ai"
-import { TbBrandWhatsapp,TbBrandUpwork } from "react-icons/tb";
+import { BsFacebook, BsTwitter } from "react-icons/bs"
+import { AiFillGoogleSquare, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
+import { TbBrandWhatsapp } from "react-icons/tb";
 import Image from "next/image"
 import image1 from "../../public/images/kinelogo-removebg-preview.png"
+import { FaPhoneSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -24,9 +25,9 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+44-7708-579388</h3>
+              <h3>+1 707-370-4231</h3>
               <br />
-              <Link href="whatsapp://send?phone=+447708579388" className='button-primary'>Contact</Link>
+              <Link href="tel:+17073704231" className='button-primary'>Contact</Link>
             </div>
             <ul>
               <h3>KINETECHS DIGITAL</h3>
@@ -85,24 +86,25 @@ const Footer = () => {
                     <BsTwitter size={25} />
                   </Link>
                 </li>
-                {/* <li>
-                  <Link href='https://www.upwork.com/agencies/1705282770786992128/'target="_blank">
-                    <TbBrandUpwork size={25} />
-                  </Link>
-                </li> */}
                 <li>
-                  <Link href='mailto:info@kinetechsdigital.com'target="_blank">
-                    <AiFillGoogleSquare size={25} />
+                  <Link href='https://www.facebook.com/profile.php?id=61552884783681'target="_blank">
+                    <BsFacebook size={25} />
                   </Link>
                 </li>
                 <li>
+                  <Link href='https://www.instagram.com/kinetechsdigital/'target="_blank">
+                    <AiFillInstagram size={25} />
+                  </Link>
+                </li>
+                {/* <li>
                   <Link href='https://www.linkedin.com/company/kinetechs-digital/'target="_blank">
                     <AiFillLinkedin size={25} />
                   </Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link href='whatsapp://send?phone=+447708579388'target="_blank">
-                    <TbBrandWhatsapp size={25} />
+                  <Link href='tel:+17073704231'target="_blank">
+                    <FaPhoneSquare size={25}/>
+
                   </Link>
                 </li>
               </div>

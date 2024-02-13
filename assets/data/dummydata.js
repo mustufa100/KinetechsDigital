@@ -28,19 +28,19 @@ export const expertise = [
   {
     id: 1,
     title: "Website Development",
-    cover: "../images/e11.jpg",
+    cover: "../images/swd.png",
     desc: [{ text: "Custom Website Development" }, { text: "E-commerce Website Development" },{ text: "Content Management Systems (CMS) Development (e.g., WordPress, Drupal)" },{ text: "Website Maintenance and Support" }],
   },
   {
     id: 2,
     title: "Digital Marketing",
-    cover: "../images/dm.jpg",
+    cover: "../images/sdm.png",
     desc: [{ text: "Search Engine Optimization (SEO)" }, { text: "Pay-Per-Click (PPC) Advertising" }, { text: "Google Ads (Search, Display, Shopping, Video)" }, { text: "Social Media Advertising (Facebook, Instagram, LinkedIn)" },{ text: "Social Media Marketing" },{text: "Content Marketing"},{text: "Email Marketing Campaigns"}],
   },
   {
     id: 3,
     title: "E-Commerce Solutions",
-    cover: "../images/e3.jpg",
+    cover: "../images/sec.png",
     desc: [{ text: "E-commerce Website Development" }, { text: "E-commerce Marketing" }, { text: "Amazon, Shopify Walmart Sellers account creation and management" }],
   },
   // {
@@ -52,7 +52,7 @@ export const expertise = [
   {
     id: 5,
     title: "Mobile App Development",
-    cover: "../images/appdev.jpg",
+    cover: "../images/mad.png",
     desc: [{ text: "IOS App Development" }, { text: "Android App Development" }, { text: "Cross-Platform App Development" }, { text: "App UI/UX Design" }],
   },
   // {
@@ -78,7 +78,7 @@ export const testimonial = [
   {
     id: 1,
     name: "STRATEGIC MARKETING",
-    cover: "../images/e3.jpg",
+    cover: "../images/marketing.jpg",
     post: "KINETECHS DIGITAL",
     desc: "Harness the power of strategic marketing tailored to your unique goals. Our team crafts compelling campaigns to amplify your online presence.",
   },
@@ -92,7 +92,7 @@ export const testimonial = [
   {
     id: 3,
     name: "SEO Mastery",
-    cover: "../images/e2.jpg",
+    cover: "../images/09_720.jpg",
     post: "KINETECHS DIGITAL",
     desc: "Rise through the ranks with our SEO prowess. We optimize your digital footprint, ensuring your brand emerges at the forefront of search engine results.",
   },
@@ -109,67 +109,68 @@ export const OFFERservices = [
   {
     id: 1,
     name: "Digital Marketing",
-    cover: "../images/e3.jpg",
+    cover: "../images/ms1.jpg",
     post: "KINETECHS DIGITAL",
     desc: "Leverage the full spectrum of digital marketing strategies to connect with your audience and drive meaningful engagement.",
   },
   {
     id: 2,
     name: "WEB DEVELOPMENT",
-    cover: "../images/e1.jpg",
+    cover: "../images/web1.jpg",
     post: "KINETECHS DIGITAL",
     desc: "From concept to execution, our developers bring your vision to life, creating user-friendly, responsive websites that leave a lasting impression.",
   },
   {
     id: 3,
     name: "SEO Solutions",
-    cover: "../images/e2.jpg",
+    cover: "../images/seo1.jpg",
     post: "KINETECHS DIGITAL",
     desc: "Stay ahead of the curve with our result-oriented SEO strategies. Enhance your visibility and attract organic traffic with our tailored approaches.",
   },
-  // {
-  //   id: 4,
-  //   name: "SYED MUSTUFA",
-  //   cover: "../images/e4.jpg",
-  //   post: "KINETECHS DIGITAL - LEAD SOFTWARE DEVELOPER",
-  //   desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
-  // },
+  {
+    id: 3,
+    name: "App Development",
+    cover: "../images/mobile1.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "Mobile app development involves creating software applications specifically designed to run on mobile devices such as smartphones and tablets.",
+ }
+ 
 ]
 export const showcase = [
   {
     id: 1,
     title: "FitClub",
-    cover: "../images/portfolio1.jpg",
+    cover: "../images/FitClub.png",
     catgeory: "WEBSITES",
   },
   {
     id: 2,
     title: "Client Portfolio",
     catgeory: "WEBSITES",
-    cover: "../images/portfolio2.jpg",
+    cover: "../images/FitClub.png",
   },
   {
     id: 3,
     title: "Rent A Car",
-    cover: "../images/portfolio3.jpg",
+    cover: "../images/FitClub.png",
     catgeory: "WEBSITES",
   },
   {
     id: 4,
     title: "Construction Company",
-    cover: "../images/portfolio4.jpg",
+    cover: "../images/FitClub.png",
     catgeory: "WEBSITES	",
   },
   {
     id: 5,
     title: "Grocery Store",
-    cover: "../images/portfolio5.jpg",
+    cover: "../images/FitClub.png",
     catgeory: "WEBSITES	",
   },
   {
     id: 6,
     title: "Education",
-    cover: "../images/portfolio6.jpg",
+    cover: "../images/FitClub.png",
     catgeory: "WEBSITES	",
   },
 ]

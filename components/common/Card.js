@@ -26,9 +26,9 @@ export const Card = ({ data, caption, show, path }) => {
 
             // for showing services in below of picture of services page
             <ul>                
-              {/* {data.desc.map((text, i) => (
+              {data.desc.map((text, i) => (
                 <li key={i}> - {text.text}</li>
-              ))} */}
+              ))}
             </ul>
           )}
           

@@ -25,9 +25,9 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+1 707-370-4231</h3>
+              <h3>(213) 928-1535</h3>
               <br />
-              <Link href="tel:+17073704231" className='button-primary'>Contact</Link>
+              <Link href="tel:(213) 928-1535" className='button-primary'>Contact</Link>
             </div>
             <ul>
               <h3>KINETECHS DIGITAL</h3>
@@ -102,7 +102,7 @@ const Footer = () => {
                   </Link>
                 </li> */}
                 <li>
-                  <Link href='tel:+17073704231'target="_blank">
+                  <Link href='tel:(213) 928-1535'target="_blank">
                     <FaPhoneSquare size={25}/>
 
                   </Link>

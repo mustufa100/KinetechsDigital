@@ -52,7 +52,7 @@ const Agency = () => {
             <div className='left w-60 py'>
               <TitleSm title='KINETECHS DIGITAL' />
               <p className='desc-p'>Welcome to Kinetechs Digital, where software development becomes an art form.At Kinetechs Digital, we fuel startups and enterprises with groundbreaking IT services. Our team of software development experts is renowned for delivering unparalleled IT consultation that optimizes your operations and propels your revenues to new heights.</p>
-              <p className='desc-p'>Beyond software, we're your comprehensive digital hub. From crafting unique logos and captivating website designs to providing scalable hosting solutions and assessing your existing code, we cater to all your needs. Our innovation extends to mobile app development, bringing your ideas to life.</p>
+              <p className='desc-p'>At Kinetechs Digital, we transcend boundaries to redefine digital success. Our comprehensive suite of services seamlessly integrates top-notch marketing and development solutions, propelling your brand to new heights.</p>
 
               <div className='grid-3'>
                 <div className='box'>

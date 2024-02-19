@@ -103,7 +103,7 @@ const Contact = () => {
                 <div className="box">
                   <FiHeadphones size={30} className="icons" />
                   <a href="tel:+17073704231">
-                    <h3>+1 707-370-4231</h3>
+                    <h3>(213) 928-1535</h3>
                   </a>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
@@ -152,7 +152,7 @@ const Contact = () => {
                   </li>
                 </Link> */}
 
-                <Link href="tel:+17073704231"target="_blank">
+                <Link href="tel:(213) 928-1535"target="_blank">
                   <li className="icon">
                     <FaPhoneSquare size={25} />
 
@@ -190,7 +190,7 @@ const Contact = () => {
                       type="text"
                       name="user_number"
                       required
-                      placeholder="E.g., +1 707-370-4231"
+                      placeholder="E.g., (213) 928-1535"
                     />
                     {phoneError && <div className="error">{phoneError}</div>}
                   </div>

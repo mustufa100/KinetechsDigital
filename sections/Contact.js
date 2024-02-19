@@ -102,7 +102,7 @@ const Contact = () => {
               <div className="contact-deatils">
                 <div className="box">
                   <FiHeadphones size={30} className="icons" />
-                  <a href="tel:+17073704231">
+                  <a href="tel:(213) 928-1535">
                     <h3>(213) 928-1535</h3>
                   </a>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>

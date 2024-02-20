@@ -28,9 +28,11 @@ const Contact = () => {
   };
 
   const isGmail = (email) => {
-    const domain = email.split("@")[1];
-    return domain === "gmail.com";
-  };
+    // Perform a more general email address validation
+    const regex = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
+    return regex.test(email);
+};
+
 
   const validatePhoneNumber = (phoneNumber) => {
     // Validate that the phone number is not empty

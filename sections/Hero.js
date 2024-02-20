@@ -236,7 +236,7 @@ const Hero = () => {
       <motion.p variants={fadeInUp}>Your Gateway to Digital Excellence! <br /> Provide top noche marketing services and development services.</motion.p>
 
       <motion.div className="btn_group" variants={stagger}>
-        <motion.a href="/Businessproposal.pdf" target="_blank" className="btn btn_primary"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Proposal
+        <motion.a href="/Kinetechs Digital - Business Proposal .pdf" target="_blank" className="btn btn_primary"variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Proposal
           <IconContext.Provider value={{color:"#f97316",size:"25px"}}>
             <IoChevronForwardCircle/>
           </IconContext.Provider>

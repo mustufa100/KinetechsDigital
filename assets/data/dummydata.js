@@ -23,7 +23,37 @@ export const home = [
     title: "Customer satisfaction is our top priority",
   },
 ]
-
+export const agency1 = [
+  {
+    id: 1,
+    name: "What Sets Us Apart",
+    cover: "../images/wsap.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "Innovation at the Core We don’t just follow trends; we set them. Our team of creative minds is dedicated to pushing the boundaries of top notch digital possibilities, ensuring your brand stays ahead of the curve.",
+  },
+  {
+    id: 2,
+    name: "Client-Centric Approach",
+    cover: "../images/clientup.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "Your success is our success. We take the time to understand your goals, challenges, and aspirations, tailoring our solutions to meet your unique needs.Join us on the journey to elevate your brand and connect with a dynamic community of like-minded individuals and businesses.",
+  },
+  {
+    id: 3,
+    name: "Unveiling Our Core Values",
+    cover: "../images/coreval.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "At the heart of our digital marketing agency lies a commitment to integrity. We operate with transparency, honesty, and ethical practices, ensuring that every interaction reflects our unwavering dedication to the highest standards of business conduct.",
+  },
+  {
+    id: 3,
+    name: "Who We Are",
+    cover: "../images/pc2.jpg",
+    post: "KINETECHS DIGITAL",
+    desc: "We are more than a digital marketing agency; we are architects of brand success. Our identity is woven with a passion for innovation, client-centric approaches, and a relentless pursuit of excellence. Discover who we are as we embark on a journey to elevate your digital presence and surpass expectations.",
+ }
+ 
+]
 export const expertise = [
   {
     id: 1,

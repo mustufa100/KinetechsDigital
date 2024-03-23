@@ -286,6 +286,17 @@ const Hero = () => {
 
         </div>
       </section> */}
+
+
+<section className='hero-sec'>
+        <div className='container'>
+          <div className='heading-title'>
+            <Title title='Unlock Your Potential with Kinetechs Digital' />
+            <p>At Kinetechs Digital, we transcend boundaries to redefine digital success. Our comprehensive suite of services seamlessly integrates top-notch marketing and development solutions, propelling your brand to new heights.</p>
+          </div>
+          </div>
+      </section>
+
       <section className='hero-sec'>
         <div className='container'>
           <div className='heading-title'>
